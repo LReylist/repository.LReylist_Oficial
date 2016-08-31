@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.LReylist" name="LReylist, Repositorio Oficial" version="1.0.0" provider-name="LReylist">
-	<extension point="xbmc.addon.repository" name="RepoLReylist">
-		<info compressed="false">http://raw.github.com/LReylist/repository.LReylist_Oficial/master/addons.xml</info>
-		<checksum>http://raw.github.com/LReylist/repository.LReylist_Oficial/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/LReylist/repository.LReylist_Oficial/master/repo/</datadir>
+<addon id="repository.LReylist_Oficial" name="LReylist, official Repo" version="1.0.0" provider-name="LRey">
+	<extension point="xbmc.addon.repository" name="LReylist official Repo">
+		<info compressed="false">https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Repositorio Oficial de LReylist</summary>
-		<description>No se autoriza la distribucion de este repositorio, unicamente sera distribuido por su creador.</description>
+		<summary>LReylist, official Repo</summary>
+   		<description lang="en">No se autoriza la distribucion de este respositorio</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
