@@ -53,6 +53,126 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.bassfox" name="[COLOR dodgerblue]Ba[COLOR lightblue]ss[/COLOR]Fox[/COLOR]" version="1.6.2" provider-name="BassFox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.9"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>BASSFOX based on LivetreamsPro by Shani "All rights to this author"</summary>
+    <description lang="en">[COLOR cyan][B]BassFox[/B][/COLOR] [COLOR white]- Is an Add-on [COLOR blue][B]Kodi[/B][/COLOR] with which you can enjoy free TV channels, if you are charging for this Add-on asks for money back.
+This Add-on has a collection of list live tv channels mostly in Spanish language, Thank you for your preference [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by[COLOR cadetblue][B] SHANI ( All rights reserved to the creator) [/COLOR]</description>
+<description lang="es">[COLOR cyan][B]BassFox[/B][/COLOR][COLOR white] - Es un Add-on de [COLOR blue][B]Kodi[/B][/COLOR] con el cual podrás disfrutar de canales de tv y películas gratis, si te están cobrando por este Add-on pide la devolución de tu dinero.
+Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by[COLOR cadetblue][B] SHANI ( All rights reserved to the creator) [/B][/COLOR]</description>
+     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
+		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Catoal"
+       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]5[/COLOR]"
+       version="5.3.5"
+       provider-name="Catoal">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Basado en LivestreamsPro</summary>
+    <description>Catoal</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.laliga" name="La Liga" version="0.0.3" provider-name="Topo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española</description>
+		<disclaimer lang="en">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.live.JAVI-TEAM"
+       name="[COLOR red]JAVI-TEAM[/COLOR]"
+       version="1.1.9"
+       provider-name="[COLOR red]JAVI[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+	 <import addon="plugin.player.javiteam" version="1.0.2"/>
+	 <import addon="plugin.video.SportsDevil" version="2.0.5.1"/>
+	 <import addon="plugin.video.pelisalacarta" version="4.0.9"/>
+	 <import addon="plugin.stream.vaughnlive.tv" version="0.1.8"/>
+	 <import addon="script.ftvguide" version="3.0.7"/>
+	 <import addon="plugin.video.tvalacarta" version="4.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]JAVI[/COLOR]</summary>
+    <description>
+         [COLOR lime] GRACIAS AL GRUPO PLD POR SU GRAN APOYO EN MI REPO Y MI ADDONS EN ESPECIAL AL CHISPAARTISTA Y JOSE35[/COLOR]
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.LReylist"
        name="LReylist 1.0.6"
        version="1.0.6"

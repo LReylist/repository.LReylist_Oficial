@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.laliga" name="La Liga" version="0.0.3" provider-name="Topo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española</description>
+		<disclaimer lang="en">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
