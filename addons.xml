@@ -226,7 +226,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 </addon>
 
 <addon id="plugin.video.LReylistfamiliar"
-       name="LReylist 1.0.7"
+       name="LReylistfamiliar 1.0.7"
        version="1.0.7"
        provider-name="LReylist">
   <requires>
