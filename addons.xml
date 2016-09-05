@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.advancedsettings"
+       name="Easy Advanced Settings"
+       version="0.8.8"
+       provider-name="kinkin">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               	library="default.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Create, view, edit and delete your advancedsettings.xml file in a user-friendly gui</summary>
+        <description>All settings follow the xbmc.org wiki[CR][CR]With this tool you can create your advanced settings directly from XBMC[CR][CR]If you don't know what a setting does, don't enable it!</description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE</license>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <email></email>
+    </extension>
+
+</addon>
+
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
        version="0.1.8"
@@ -86,36 +112,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
-<addon id="plugin.video.Catoal"
-       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]5[/COLOR]"
-       version="5.3.5"
-       provider-name="Catoal">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Basado en LivestreamsPro</summary>
-    <description>Catoal</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.laliga" name="La Liga" version="0.0.3" provider-name="Topo">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -124,16 +121,37 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
 		<import addon="script.module.livestreamer" />
+
+
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
-		<description lang="en">Liga Española</description>
-		<disclaimer lang="en">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<summary lang="en">Just a castaway.</summary>
+		<description lang="en">Visit TVADDONS.ag for support.
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="plugin.video.erotik" name="Erotik (XXX)" version="1.0.20" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.urlresolver" version="2.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.live.JAVI-TEAM"
@@ -174,24 +192,26 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 </addon>
 
 <addon id="plugin.video.LReylist"
-       name="LReylist 1.0.6"
-       version="1.0.6"
+       name="LReylist 1.0.7"
+       version="1.0.7"
        provider-name="LReylist">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.pyxbmct" version="1.1.4" />
+	<import addon="script.module.urlresolver" version="3.0.0"/>
+	<import addon="script.module.liveresolver" version="0.1.24"/>
+	<import addon="script.video.F4mProxy" version="2.2.3"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+	<import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -200,36 +220,42 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <summary>Gracias por usar LReylist</summary>
     <description>LReylist, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
     <platform>all</platform>
+	<forum>http://lrey.foroactivo.com/</forum>
+	<website>http://lrey.foroactivo.com/</website>
   </extension>
 </addon>
 
 <addon id="plugin.video.LReylistfamiliar"
-       name="LReylistfamiliar 1.0.6"
-       version="1.0.6"
-       provider-name="LReylistfamiliar">
+       name="LReylist 1.0.7"
+       version="1.0.7"
+       provider-name="LReylist">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.pyxbmct" version="1.1.4" />
+	<import addon="script.module.urlresolver" version="3.0.0"/>
+	<import addon="script.module.liveresolver" version="0.1.24"/>
+	<import addon="script.video.F4mProxy" version="2.2.3"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+	<import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Gracias por usar LReylistfamiliar</summary>
-    <description>LReylistfamiliar, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
+    <summary>Gracias por usar LReylist</summary>
+    <description>LReylist, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
     <platform>all</platform>
+	<forum>http://lrey.foroactivo.com/</forum>
+	<website>http://lrey.foroactivo.com/</website>
   </extension>
 </addon>
 
@@ -292,53 +318,52 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" name="SportsDevil" version="22016.08.28" provider-name="SportsDevil">
-
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Ya me cansé de ponerlo en Inglés... a partir de ahora todo en Español, el mejor idioma del mundo :-)</summary>
-    <description>Para poder ver múltiples enlaces de canales, tanto en los módulos como en 'llamadas' desde otros plugins... Modificado por DMO: 28/08/2016 (de la versión de Hubba del 22/08/2016)... +Info en Registro de Cambios (Gracias Goldonx, Quequeq, Nano, JairoX y JxxxxxX!!)... Soporte para llamadas p2p con PluginS p2pStreamS y PLEXUS</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvalacarta"
-    name="tvalacarta"
-    version="4.0.3"
+<addon id="plugin.video.pelisalacarta-ui"
+    name="pelisalacarta UI"
+    version="4.1.2"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+  <extension point="xbmc.python.script" library="default.py" >
+    <provides>executable video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">Televisión a la carta</summary>
-    <description lang="es">Para ver la televisión por Internet, a la carta y desde tu media center</description>
-    <summary lang="en">TV on demand (Spanish)</summary>
-    <description lang="en">Watch on demand spanish TV from your media center</description>
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
+    <summary lang="en">Movies and TV Shows on demand</summary>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>http://www.mimediacenter.info/foro</forum>
-    <website>http://blog.tvalacarta.info/plugin-xbmc/tvalacarta</website>
+    <website>http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta</website>
     <email>tvalacarta@gmail.com</email>
-    <source>https://github.com/tvalacarta/tvalacarta</source>
+    <source>https://github.com/tvalacarta/pelisalacarta</source>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="login|startup">
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
   </extension>
+</addon>
+
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.8" provider-name="tvaddons.ag">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Phoenix</summary>
+		<description lang="en">Discover Great Streaming Playlists, Please visit www.tvaddons.ag for help and support!</description>
+		<platform>all</platform>
+		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
+		<website>http://www.tvaddons.ag/</website>
+		<news>Updated scrapers</news>
+	</extension>
 </addon>
 
 <addon id="program.plexus"
@@ -414,6 +439,37 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 	</extension>
 </addon>
 
+<addon id="repository.unofficialsportsdevil" name="Unofficial SportsDevil Repository" version="1.0.0" provider-name="unofficialsportsdevil">
+ <extension point="xbmc.addon.repository" name="Unofficial SportsDevil Repository">
+  <dir>
+   <info compressed="false">
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml
+   </info>
+   <checksum>
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5
+   </checksum>
+   <datadir zip="true">
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/
+   </datadir>
+  </dir>
+  <info compressed="false">
+   https://offshoregit.com/unofficialsportsdevil/addons.xml
+  </info>
+  <checksum>
+   https://offshoregit.com/unofficialsportsdevil/addons.xml.md5
+  </checksum>
+  <datadir zip="true">https://offshoregit.com/unofficialsportsdevil/</datadir>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <summary>Unofficial SportsDevil Updates for Kodi</summary>
+  <description>Unofficial SportsDevil Updates for Kodi</description>
+  <platform>all</platform>
+  <forum>
+   https://forums.tvaddons.ag/sportsdevil-addon-for-kodi/
+  </forum>
+ </extension>
+</addon>
+
     <addon id="repository.ViendoKodiStreaming" name="[COLOR blue]ViendoKodi[/COLOR] [COLOR red]Streaming[/COLOR] Repository" version="0.1.0" provider-name="Viendo Kodi Team">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -428,6 +484,25 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
             <summary>Tv y Cine para Kodi</summary>
             <description>Permite visualizar los canales de tv ofrecidos por diferentes Webs.[CR] Ademas de peliculas de web de torrent.</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.vstream"
+        name="vStream Repository"
+        version="0.0.1"
+        provider-name="Venom">
+    <extension point="xbmc.addon.repository" name="vStream XBMC Addon Repository">
+        <checksum>https://raw.githubusercontent.com/LordVenom/venom-xbmc-addons/master/addons.xml.md5</checksum>
+        <info compressed="false">https://raw.githubusercontent.com/LordVenom/venom-xbmc-addons/master/addons.xml</info>
+        <datadir zip="true">https://github.com/LordVenom/venom-xbmc-addons/raw/master/repo</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">vStream Repository</summary>
+        <description lang="fr">Installer vStream</description>
+        <summary lang="en">vStream Repository</summary>
+        <description lang="en">Download and install vStream</description>
+        <platform>all</platform>
     </extension>
 </addon>
 
