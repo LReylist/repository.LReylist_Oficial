@@ -224,10 +224,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
-	<import addon="script.module.urlresolver" version="3.0.0"/>
-	<import addon="script.module.liveresolver" version="0.1.24"/>
-	<import addon="script.video.F4mProxy" version="2.2.3"/>
-  </requires>
+	</requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
@@ -546,6 +543,23 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 	</extension>
 </addon>
 
+<addon id="script.module.urlresolver"
+     name="URLResolver"
+     version="2.10.0"
+     provider-name="Eldorado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+    <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+  </extension>
+</addon>
+
 <addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.627.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -563,6 +577,26 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
         <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
     </extension>
+</addon>
+
+<addon id="script.video.F4mProxy"
+	     name="F4mProxy"
+	     version="2.5.5"
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
 </addon>
 
 <addon id="xxtrucoxx-repo" name="XxTRUCOxX repository" version="0.0.1" provider-name="XxTRUCOxX">

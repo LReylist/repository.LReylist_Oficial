@@ -17,10 +17,7 @@
     <import addon="script.module.simplejson" />    
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
-	<import addon="script.module.urlresolver" version="3.0.0"/>
-	<import addon="script.module.liveresolver" version="0.1.24"/>
-	<import addon="script.video.F4mProxy" version="2.2.3"/>
-  </requires>
+	</requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
