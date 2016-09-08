@@ -177,10 +177,10 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
-<addon id="plugin.video.LReylist 1.0.7"
+<addon id="plugin.video.LReylist"
        name="LReylist 1.0.7"
        version="1.0.7"
-       provider-name="LRey">
+       provider-name="LReylistfamiliar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -188,18 +188,20 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-	<import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Gracias por usar LReylist</summary>
-    <description>LReylist, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
+    <description>LReylistfamiliar, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
     <platform>all</platform>
   </extension>
 </addon>
