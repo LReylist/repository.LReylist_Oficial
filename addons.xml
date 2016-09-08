@@ -206,6 +206,38 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
 </addon>
 
+<addon id="plugin.video.LReylistfamiliar"
+       name="LReylistfamiliar 1.0.7"
+       version="1.0.7"
+       provider-name="LReylistfamiliar">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="script.module.urlresolver" version="3.0.0"/>
+	<import addon="script.module.liveresolver" version="0.1.24"/>
+	<import addon="script.video.F4mProxy" version="2.2.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Gracias por usar LReylistfamiliar</summary>
+    <description>LReylistfamiliar, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.p2p-streams"
        name="p2p-streams"
        version="1.2.0b"
@@ -313,6 +345,29 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 	</extension>
 </addon>
 
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.34" provider-name="scakemyer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language>en</language>
+        <website><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></website>
+        <forum><![CDATA[http://forum.kodi.tv/showthread.php?tid=257967]]></forum>
+        <source><![CDATA[https://github.com/scakemyer/plugin.video.quasar]]></source>
+        <language>en</language>
+        <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
+        <summary><![CDATA[Quasar: Torrent streaming]]></summary>
+        <description><![CDATA[Stream torrent files]]></description>
+    </extension>
+</addon>
+
 <addon id="plugin.video.SportsDevil" name="SportsDevil" version="22016.08.28" provider-name="SportsDevil">
 
   <requires>
@@ -417,21 +472,6 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.unofficialquasar" name="[COLOR red]Unofficial[/COLOR] [COLOR FF005de5]Quasar[/COLOR] Repo" version="1.0.0" provider-name="iCanuck">
-	<extension point="xbmc.addon.repository" name="Unofficial Quasar Repo">
-        <info compressed="false">http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo/addons.xml</info>
-        <checksum>http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo/addons.xml.md5</checksum>
-        <datadir zip="true">http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Quasar and Providers</summary>
-		<description>Download and install Quasar and Providers</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 	</extension>
 </addon>
 
