@@ -1,3 +1,14 @@
+v 999920160909  Añado cuatro "9" delante para que no se actualice con otros SpD de algunos Repos
+-------------------------------------------------------------------------------------------------
+-Fix de VaughnLive  (Goldonx)
+-"Otros" (Goldonx y DMO)
+-Nuevo Catcher live247.online (Hubba3)
+-Nuevo Catcher freelivestream.tv (Hubba3)
+-"Otros" (Hubba3)
+
+
+
+
 v 2016.08.28
 --------------------------------------------
 Fix sawlive  (Hubba3)
