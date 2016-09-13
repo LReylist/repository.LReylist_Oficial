@@ -1,9 +1,0 @@
-Version 1.2.8 adjusting to the new site
-Version 1.2.7 Adding Quasar support
-Version 1.2.6 refreshing view
-Version 1.2.5 fixing dialog error
-Version 1.2.4 Extended info support
-Version 1.2.3 Regression magnet
-Version 1.2.2 fix import
-Version 1.2.1 Search block
-Version 1.0.0 First version
