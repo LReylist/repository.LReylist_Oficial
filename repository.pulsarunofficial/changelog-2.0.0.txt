@@ -1,0 +1,13 @@
+v2.0.0 (215000 downloads)
+* Changed Host to Offshoregit 
+
+v1.0.2 (155000 downloads)
+* Repo name - added color
+
+v1.0.1
+* Updated Disclaimer
+
+v1.0.0
+* Initial Release (1136 downloads)
+
+
