@@ -107,6 +107,106 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.elitetorrent" name="[COLOR FF336699]EliteTorrent[/COLOR] viewer" version="1.2.5"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">se habla en castellano</summary>
+        <summary lang="es">se habla en castellano</summary>
+        <description lang="en">This Add-on is a viewer for EliteTorrent</description>
+        <description lang="es">Este es un Add-on es un visor para EliteTorrent</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+
+<addon id="plugin.video.estrenotorrent" name="[COLOR FF016A76]EstrenoTorrent[/COLOR] viewer" version="0.0.1"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">se habla en castellano</summary>
+        <summary lang="es">se habla en castellano</summary>
+        <description lang="en">This Add-on is a viewer for EstrenoTorrent</description>
+        <description lang="es">Este es un Add-on es un visor para EstrenoTorrent</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+
+<addon id="plugin.video.extratorrent" name="[COLOR FF97D1F6]ExtraTorrent[/COLOR] viewer" version="1.0.4"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The biggest BitTorrent system</summary>
+        <summary lang="es">El sistema más grande de BitTorrent</summary>
+        <description lang="en">This Add-on is a viewer for ExtraTorrent</description>
+        <description lang="es">Este es un Add-on es un visor para ExtraTorrent</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+
+<addon id="plugin.video.kickass" name="[COLOR FFFEDF64]KickAss[/COLOR] viewer" version="1.2.8"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies and Tv Shows</summary>
+        <summary lang="es">Películas y series`</summary>
+        <description lang="en">This Add-on is a viewer for KickAss</description>
+        <description lang="es">Este es un Add-on es un visor para KickAss</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+
 <addon id="plugin.video.live.JAVI-TEAM"
        name="[COLOR red]JAVI-TEAM[/COLOR]"
        version="1.1.9"
@@ -202,7 +302,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.newpct1" name="NewPCT1" version="1.2.5" provider-name="mancuniancol">
+<addon id="plugin.video.newpct1" name="[COLOR FFFF0000]NewPCT1[/COLOR] viewer" version="1.2.5"
+       provider-name="mancuniancol">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
         <import addon="script.module.mctools" optional="false"/>
@@ -213,11 +314,16 @@
     <extension point="xbmc.service" library="service.py" start="login">
     </extension>
     <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies and Tv Shows</summary>
         <summary lang="es">Películas y series`</summary>
-        <description lang="es">Add-on es De NewPCT1, retocado por LRey</description>
+        <description lang="en">This Add-on is a viewer for NewPCT1</description>
+        <description lang="es">Este es un Add-on es un visor para NewPCT1</description>
         <language></language>
         <platform>all</platform>
         <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
 </addon>
 
@@ -374,6 +480,31 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.torrentz" name="[COLOR FFFFB090]TorrentZ[/COLOR] viewer" version="1.2.7"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Movies and Tv Shows</summary>
+        <summary lang="es">Películas y series`</summary>
+        <description lang="en">This Add-on is a viewer for TorrentZ</description>
+        <description lang="es">Este es un Add-on es un visor para TorrentZ</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
+</addon>
+
 <addon id="plugin.video.tvalacarta"
     name="tvalacarta"
     version="4.0.3"
@@ -398,6 +529,32 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
+</addon>
+
+<addon id="plugin.video.videoteca.series" name="visor de [COLOR FFC0392B]Series Videoteca[/COLOR]" version="0.1.1"
+       provider-name="mancuniancol">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <import addon="plugin.video.pelisalacarta" version="4.0.3"/>
+        <import addon="script.module.mctools" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">TV Shows in spanish</summary>
+        <summary lang="es">Series en español</summary>
+        <description lang="en">This Add-on is a viewer for Seriesflv</description>
+        <description lang="es">Este es un Add-on es un visor para Seriesflv</description>
+        <language></language>
+        <platform>all</platform>
+        <forum></forum>
+        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
+        </disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    </extension>
 </addon>
 
 <addon id="program.plexus"

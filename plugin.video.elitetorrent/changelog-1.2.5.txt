@@ -1,0 +1,20 @@
+Version 1.2.5 Adding Quasar support
+Version 1.2.4 refreshing view
+Version 1.2.3 fixing dialog error
+Version 1.2.2 Extended info support
+Version 1.2.1 Search group
+Version 1.2.0 Saving search
+Version 1.1.4 SetContent
+Version 1.1.3 UnTaggle
+version 1.1.2 episodes support
+version 1.1.1 Adding help
+Version 1.1.0 offshore problem
+Version 1.0.4 itemlist
+Version 1.0.3 new metahandler 2.9
+Version 1.0.2 new images
+Version 1.0.1 textQuality
+Version 1.0.0 Official release
+Version 0.0.4 Warning text
+Version 0.0.3 More categories
+Version 0.0.2 showFolder
+Version 0.0.1 First version
