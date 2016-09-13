@@ -202,11 +202,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.newpct1" name="[COLOR FFFF0000]NewPCT1[/COLOR] [COLOR blue]CA[/COLOR][COLOR yellow]TO[/COLOR][COLOR red]AL[/COLOR]" version="1.2.5"
+<addon id="plugin.video.newpct1" name="NewPCT1" version="1.2.5"
        provider-name="mancuniancol">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="script.module.mctools" optional="false"/>
+	    <import addon="script.module.mctools" optional="false"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
