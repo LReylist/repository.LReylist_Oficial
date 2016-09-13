@@ -202,11 +202,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.newpct1" name="NewPCT1" version="1.2.5"
-       provider-name="mancuniancol">
+<addon id="plugin.video.newpct1" name="NewPCT1" version="1.2.5" provider-name="mancuniancol">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
-	    <import addon="script.module.mctools" optional="false"/>
+        <import addon="script.module.mctools" optional="false"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -214,16 +213,11 @@
     <extension point="xbmc.service" library="service.py" start="login">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Movies and Tv Shows</summary>
         <summary lang="es">Películas y series`</summary>
-        <description lang="en">Add-on is for NewPCT1</description>
-        <description lang="es">Add-on es De NewPCT1</description>
+        <description lang="es">Add-on es De NewPCT1, retocado por LRey</description>
         <language></language>
         <platform>all</platform>
         <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
 </addon>
 
@@ -548,34 +542,6 @@
                 <forum>http://www.adultxbmc.com</forum>
                 <website>http://www.adultxbmc.com</website>
 	</extension>
-</addon>
-
-<addon id="script.module.mctools" name="common tools mc" version="1.3.7" provider-name="mancuniancol">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup4" optional="false"/>
-    <import addon="script.module.html5lib" optional="false"/>
-    <import addon="script.module.requests" optional="false"/>
-    <import addon="script.module.feedparser" optional="false"/>
-    <import addon="script.module.xbmcswift2" optional="false"/>
-    <import addon="script.module.simplejson" optional="false"/>
-    <import addon="script.module.metahandler" optional="false"/>
-    <import addon="script.module.httplib2" optional="false"/>
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of common tools for addons</summary>
-    <description lang="en">Collection of tools from different authors.  All the credit should be given to them</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forums.tvaddons.ag/addon-releases/37973-torrent-rss-kickass-yts-torrentz-viewers-3.html#post314231</forum>
-    <website>https://github.com/mancuniancol/script.module.mctools</website>
-    <email></email>
-    <source></source>
-  </extension>
 </addon>
 
 <addon id="script.module.urlresolver"
