@@ -405,31 +405,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.torrentz" name="[COLOR FFFFB090]TorrentZ[/COLOR] viewer" version="1.2.7"
-       provider-name="mancuniancol">
-    <requires>
-        <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="script.module.mctools" optional="false"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Movies and Tv Shows</summary>
-        <summary lang="es">Películas y series`</summary>
-        <description lang="en">This Add-on is a viewer for TorrentZ</description>
-        <description lang="es">Este es un Add-on es un visor para TorrentZ</description>
-        <language></language>
-        <platform>all</platform>
-        <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    </extension>
-</addon>
-
 <addon id="plugin.video.tvalacarta"
     name="tvalacarta"
     version="4.0.3"
@@ -482,11 +457,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.videoteca.series" name="visor de [COLOR FFC0392B]Series Videoteca[/COLOR]" version="0.1.1"
+<addon id="plugin.video.videoteca.series" name="Series LReylist" version="0.1.1"
        provider-name="mancuniancol">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="plugin.video.pelisalacarta" version="4.0.3"/>
+        <import addon="plugin.video.pelisalacarta" version="4.1.2"/>
         <import addon="script.module.mctools" optional="false"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
@@ -495,16 +470,11 @@
     <extension point="xbmc.service" library="service.py" start="login">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">TV Shows in spanish</summary>
         <summary lang="es">Series en español</summary>
-        <description lang="en">This Add-on is a viewer for Seriesflv</description>
         <description lang="es">Este es un Add-on es un visor para Seriesflv</description>
         <language></language>
         <platform>all</platform>
         <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
 </addon>
 
