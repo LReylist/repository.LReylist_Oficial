@@ -1,5 +1,0 @@
-Version 0.0.5 fixing dialog error
-Version 0.0.4 SetContent
-Version 0.0.3 new library
-Version 0.0.2 some logos
-Version 0.0.1 First version

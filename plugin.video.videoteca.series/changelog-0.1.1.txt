@@ -1,5 +1,0 @@
-Version 0.1.1 fixing dialog error
-Version 0.1.0
-Version 0.0.3 Xbmcmania
-Version 0.0.2 SetContent
-Version 0.0.1 First version
