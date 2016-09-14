@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.0.5" provider-name="Vania Rupeni">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.simplejson" version="3.3.0" />
+    <import addon="script.module.simple.downloader" version="1.9.5" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Live TV - downloaded for free from: http://kodilive.eu</summary>
+    <description lang="en">Kodi Live TV - downloaded for free from:
+http://kodilive.eu
+Plugin to watch IPTV free worldwide
+Steps to be done before using the Teleboy section:
+--------------------------------------------------------------------------------
+* open "http://www.teleboy.ch" in your browser
+* sign up (free) and login and create your preferred channel list
+* enter your login and password in the addon settings and enjoy live television!
+--------------------------------------------------------------------------------
+f4m Proxy part is fork of f4mProxy by Shani
+Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>

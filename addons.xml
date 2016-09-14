@@ -132,6 +132,34 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.0.5" provider-name="Vania Rupeni">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.simplejson" version="3.3.0" />
+    <import addon="script.module.simple.downloader" version="1.9.5" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi Live TV - downloaded for free from: http://kodilive.eu</summary>
+    <description lang="en">Kodi Live TV - downloaded for free from:
+http://kodilive.eu
+Plugin to watch IPTV free worldwide
+Steps to be done before using the Teleboy section:
+--------------------------------------------------------------------------------
+* open "http://www.teleboy.ch" in your browser
+* sign up (free) and login and create your preferred channel list
+* enter your login and password in the addon settings and enjoy live television!
+--------------------------------------------------------------------------------
+f4m Proxy part is fork of f4mProxy by Shani
+Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.live.JAVI-TEAM"
        name="[COLOR red]JAVI-TEAM[/COLOR]"
        version="1.1.9"
@@ -431,58 +459,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.videoteca.movies" name="visor de [COLOR FFC0392B]Series Videoteca[/COLOR]" version="0.0.5"
-       provider-name="mancuniancol">
-    <requires>
-        <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="plugin.video.pelisalacarta" version="4.0.3"/>
-        <import addon="script.module.mctools" optional="false"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Movies in spanish</summary>
-        <summary lang="es">Películas en español</summary>
-        <description lang="en">This Add-on is a viewer for Yaske</description>
-        <description lang="es">Este es un Add-on es un visor para Yaske</description>
-        <language></language>
-        <platform>all</platform>
-        <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    </extension>
-</addon>
-
-<addon id="plugin.video.videoteca.series" name="visor de [COLOR FFC0392B]Series Videoteca[/COLOR]" version="0.1.1"
-       provider-name="mancuniancol">
-    <requires>
-        <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="plugin.video.pelisalacarta" version="4.1.2"/>
-        <import addon="script.module.mctools" optional="false"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">TV Shows in spanish</summary>
-        <summary lang="es">Series en español</summary>
-        <description lang="en">This Add-on is a viewer for Seriesflv</description>
-        <description lang="es">Este es un Add-on es un visor para Seriesflv</description>
-        <language></language>
-        <platform>all</platform>
-        <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    </extension>
-</addon>
-
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.4"
@@ -505,6 +481,19 @@
     <forum>http://forums.tvaddons.ag</forum>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.1" provider-name="Vashiel">
+	<extension point="xbmc.addon.repository" name="AdultHideout Addon Repository">
+		<info compressed="false">https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml</info>
+		<checksum>https://github.com/Vashiel/repository.adulthideout/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Vashiel/repository.adulthideout/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>AdultHideout Addon Repository</summary>
+		<description>First Try for a Adult Kodi Addon</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.BassFox-Official" name="BassFox Official Repo" version="1.3.6" provider-name="BassFox">
@@ -567,6 +556,20 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon version="0.0.6" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Addons">
+		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml</info>
+		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].</description>
+		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
