@@ -160,6 +160,27 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
+<addon id="plugin.video.laliga" name="La Liga" version="0.0.11" provider-name="Topo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+	    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española</description>
+		<disclaimer lang="en">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.live.JAVI-TEAM"
        name="[COLOR red]JAVI-TEAM[/COLOR]"
        version="1.1.9"
@@ -560,20 +581,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
-<addon version="0.0.6" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
-	<extension point="xbmc.addon.repository" name="TheHighway's Addons">
-		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml</info>
-		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
-		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].</description>
-		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
     <addon id="repository.ViendoKodiStreaming" name="[COLOR blue]ViendoKodi[/COLOR] [COLOR red]Streaming[/COLOR] Repository" version="0.1.0" provider-name="Viendo Kodi Team">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -588,25 +595,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
             <summary>Tv y Cine para Kodi</summary>
             <description>Permite visualizar los canales de tv ofrecidos por diferentes Webs.[CR] Ademas de peliculas de web de torrent.</description>
             <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.vstream"
-        name="vStream Repository"
-        version="0.0.1"
-        provider-name="Venom">
-    <extension point="xbmc.addon.repository" name="vStream XBMC Addon Repository">
-        <checksum>https://raw.githubusercontent.com/LordVenom/venom-xbmc-addons/master/addons.xml.md5</checksum>
-        <info compressed="false">https://raw.githubusercontent.com/LordVenom/venom-xbmc-addons/master/addons.xml</info>
-        <datadir zip="true">https://github.com/LordVenom/venom-xbmc-addons/raw/master/repo</datadir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary lang="fr">vStream Repository</summary>
-        <description lang="fr">Installer vStream</description>
-        <summary lang="en">vStream Repository</summary>
-        <description lang="en">Download and install vStream</description>
-        <platform>all</platform>
     </extension>
 </addon>
 
@@ -727,19 +715,5 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <summary lang="en">Proxy for f4m</summary>
     <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
   </extension>
-</addon>
-
-<addon id="xxtrucoxx-repo" name="XxTRUCOxX repository" version="0.0.1" provider-name="XxTRUCOxX">
-	<extension point="xbmc.addon.repository" name="XxTRUCOxX Add-on Repository">
-		<info compressed="false">http://raw.github.com/AiWABR/xxtrucoxx-repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/AiWABR/xxtrucoxx-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/AiWABR/xxtrucoxx-repo/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>XxTRUCOxX Addon Repository</summary>
-		<description>Watch Porn Online</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 </addons>
