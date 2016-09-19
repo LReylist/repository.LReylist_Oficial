@@ -1,0 +1,59 @@
+09.07.216 : Version 2.0.5
+- Added option to download video file in Playlist Manager section
+- Change updates download function: now the updates are downloaded from github
+- Added Greeks TV channels
+
+08.07.216 : Version 2.0.4
+- Added script to install the dependencies, if not installed
+
+05.07.216 : Version 2.0.3
+- Integrated Simplejson library
+- Allert to start VPN (Teleboy)
+
+04.07.216 : Version 2.0.2
+- Added option for open Teleboy stream in VLC Media Player: VLC required, work in Linux and Windows (tested in Windows 10)
+
+27.06.2016 : Version 2.0.1
+- Added official stream of RAI channels (Italian IP required, set f4mProxy to internal)
+- Added hlsDownloader support to play m3u8 with f4mProxy (interanl) 
+- hlsDownloader modified to play RAI 1 official channel;
+- Update regionals italian channels
+
+25.06.2016 : Version 2.0.0
+- changed Teleboy Section: now use new teleboy json api
+- free account from "http://www.teleboy.ch" required
+- Swiss IP required
+
+Steps to be done before using the teleboy section:
+--------------------------------------------------------------------------------
+* open "http://www.teleboy.ch" in your browser
+* sign up (free) and login
+* create your preferred channel list
+* enter your login and password in the addon settings
+* enjoy live television!
+
+22.06.2016 : Version 1.5.5
+- nuova sezione Playlist Manager al posto della sezione F4m TV
+- aggiunta possibilità di importare il db delle liste
+- fix nello script f4mDownloader
+- miglioramenti vari (in particolare nei menu contestuali)
+
+20.06.2016 : Version 1.5.4
+- Aggiornato f4m Proxy
+- Aggiunte opzioni per configurare l'f4m Proxy integrato
+- Possibilità di utilizzare l'f4m Proxy estrno invece di quello integrato
+- Aggiunto changelog
+
+18.06.2016 : Version 1.5.3
+- Aggiunto supporto f4m stream
+
+14.06.2016 : Version 1.5.2
+- Aggiunto supporto loghi nel player di f4mProxy 
+
+13.06.2016 : Version 1.5.1
+- Integrato f4mProxy per riproduzione TS stream 
+- (non è più indispensabile avere installati f4mProxy/f4mTester)
+
+30.05.2016 : Version 1.5.0
+- Supporto TS stream (necessari f4mTester/f4mProxy di Shani)
+

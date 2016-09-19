@@ -7,9 +7,7 @@
     	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
-		<import addon="script.module.livestreamer" />
-		
-    	
+		<import addon="script.module.livestreamer" />    	
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -19,7 +17,6 @@
 		<description lang="en">Visit TVADDONS.ag for support.
 		</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		
 		<platform>all</platform>
 	</extension>
 </addon>

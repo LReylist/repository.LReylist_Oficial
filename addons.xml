@@ -62,8 +62,6 @@
 		<import addon="script.module.urlresolver" />
 		<import addon="script.module.liveresolver"  />
 		<import addon="script.module.livestreamer" />
-
-
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -73,7 +71,6 @@
 		<description lang="en">Visit TVADDONS.ag for support.
 		</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -132,12 +129,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.0.5" provider-name="Vania Rupeni">
+<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.1.3" provider-name="Vania Rupeni">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
+    <import addon="xbmc.addon" version="13.0.0" />
+    <import addon="script.module.requests" version="2.9.1" />
     <import addon="script.module.simplejson" version="3.3.0" />
-    <import addon="script.module.simple.downloader" version="1.9.5" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -431,8 +428,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" name="SportsDevil" version="999920160912" provider-name="SportsDevil">
-
+<addon id="plugin.video.SportsDevil" version="999920160917" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -447,9 +443,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>LReylist</summary>
-    <description>Version retocada por LRey</description>
-	<description>No se autoriza su distribucion</description>
+    <summary>Ya me cansé de ponerlo en Inglés... a partir de ahora todo en Español, el mejor idioma del mundo :-)</summary>
+    <description>Para poder ver múltiples enlaces de canales, tanto en los módulos como en 'llamadas' desde otros plugins... Modificado por DMO: 17/09/2016 (de la versión de Hubba del 16/09/2016)... +Info en Registro de Cambios (Gracias Goldonx, Quequeq, Nano, JairoX y JxxxxxX!!)... Soporte para llamadas p2p con PluginS p2pStreamS y PLEXUS</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
