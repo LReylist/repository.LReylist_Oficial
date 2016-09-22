@@ -171,9 +171,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Liga Española y todo el futbol internacional</summary>
-		<description lang="en">Retocado por LReylist</description>
-		<disclaimer lang="en">Desde LReylist queremos mostrar nuestro agradecimiento al creador de este magnifico addon.</disclaimer>
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española</description>
+		<disclaimer lang="en">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
