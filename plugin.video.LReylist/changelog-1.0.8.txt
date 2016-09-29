@@ -1,4 +1,5 @@
-﻿
+﻿Version 1.0.8
+Adaptado para hacer addon preemiun, solo para usuarios de Android TV configurados por LRey.
 Versión 1.0.6
 Actualizado decodificadores imagenes de fondo actualizada y compatibilidad con appel tv4
 Actualización de codes.

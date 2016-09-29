@@ -199,9 +199,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.LReylist"
-       name="LReylist 1.0.7"
-       version="1.0.7"
-       provider-name="LReylistfamiliar">
+       name="LReylist 1.0.8 Premium"
+       version="1.0.8"
+       provider-name="LRey">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
