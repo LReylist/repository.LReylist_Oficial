@@ -73,14 +73,14 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.81" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"  />
     	<import addon="script.module.addon.common" />
-		<import addon="script.module.urlresolver" />
-		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
 		<import addon="script.module.livestreamer" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -177,14 +177,14 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.laliga" name="La Liga" version="0.0.11" provider-name="Topo">
+<addon id="plugin.video.laliga" name="La Liga" version="0.0.12" provider-name="Topo">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests"  />
 	    	<import addon="script.module.addon.common" />
 		<import addon="script.module.urlresolver" />
-		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.liveresolver" version="0.1.24"/>
 		<import addon="script.module.livestreamer" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -366,7 +366,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.8" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.13" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -384,7 +384,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated scrapers</news>
+		<news>Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
