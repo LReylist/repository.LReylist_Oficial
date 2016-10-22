@@ -388,7 +388,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.34" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.35" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -407,7 +407,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
         <language>en</language>
         <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
         <summary><![CDATA[Quasar: Torrent streaming]]></summary>
-        <description><![CDATA[Stream torrent files]]></description>
+        <description><![CDATA[Stream torrent files]]> Full Pack Quasar PS: If you install Quasar not you must have installed Pulsar on Kodi / Este Pack tiene todas las versiones PD: Si instala Quasar no debe tener instalado Pulsar en Kodi </description>
     </extension>
 </addon>
 
