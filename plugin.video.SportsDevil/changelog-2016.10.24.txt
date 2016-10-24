@@ -1,3 +1,8 @@
+v 999920161023
+-------------------------------------------------------------------------------------------------
+-Multiples Fixes de diferentes Catchers (Goldonx, Hubba3, Jairox y DarioMO)
+
+
 v 999920161007
 -------------------------------------------------------------------------------------------------
 -Arreglado Problema de que algunos Catchers no funcionaban en Android... Gracias JairoX.
