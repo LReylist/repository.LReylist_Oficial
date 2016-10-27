@@ -1,4 +1,7 @@
-﻿Versión 5.3.5
+﻿Versión 5.3.6
+Actualizado los conectores para mejorar y adaptarse a los nuevos regex.
+
+Versión 5.3.5
 Mejorada toda la estructura del addon con nuevos scrips.
 
 Versión 5.3.4
