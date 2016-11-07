@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.pelisalacarta-betaSB" name="pelisalacarta-betaSB" version="4.1.41" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-betaSB" name="pelisalacarta-betaSB" version="4.1.42" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
