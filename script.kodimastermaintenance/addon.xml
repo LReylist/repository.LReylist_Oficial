@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.kodimastermaintenance"
+       name="KodiMaster Maintenance"
+       version="1.0.2"
+       provider-name="kodimaster.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>KodiMaster Maintinance</summary>
+    <description>
+	Quick maintenance tool for your device. 
+	Modifed code from Raw Maintenance add-on, and removed Google Analytics - I take no credit for original code. 
+	</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>

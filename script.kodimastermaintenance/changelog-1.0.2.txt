@@ -1,0 +1,4 @@
+1.0.1
+
+- Remove Delete Thumbnails menu item
+- Remove Google Analytics code added by previous developer!
