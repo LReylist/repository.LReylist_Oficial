@@ -521,6 +521,19 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
+<addon id="repository.arnubox" name="ARNU Box Repository" version="1.0.3" provider-name="ARNU Box">
+	<extension point="xbmc.addon.repository" name="ARNU Box Repository">
+		<info compressed="false">http://www.arnuboxota.com/repo/addons/addons.xml</info>
+		<checksum>http://www.arnuboxota.com/repo/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.arnuboxota.com/repo/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official ARNU Box XBMC/KODI Repository</summary>
+		<description>The official ARNU Box XBMC/KODI Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.BassFox-Official" name="BassFox Official Repo" version="1.3.6" provider-name="BassFox">
 	<extension point="xbmc.addon.repository" name="BassFox official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/Jfx666/BiltegiberriaBFX3/master/addons.xml</info>
@@ -676,24 +689,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="script.kodispeedtest"
-       name="Kodi SpeedTester Addon"
-       version="0.0.2"
-       provider-name="Speedtest.net">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Speed Tester</summary>
-    <description lang="en"> powered by speedtest.net will give you accurate Internet speed/ping test results.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="script.module.mctools" name="common tools mc" version="1.3.7" provider-name="mancuniancol">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -756,6 +751,24 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
         <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
     </extension>
+</addon>
+
+<addon id="script.speedtestnet"
+       name="ARNU Box Speed Tester"
+       version="1.0.0"
+       provider-name="ARNU Box / Josh.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ARNU Box Speed Tester</summary>
+    <description lang="en">ARNU Box Speed Tester powered by speedtest.net will give you accurate Internet speed/ping test results. \n Brought to you by http://www.arnubox.com</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.video.F4mProxy"
