@@ -232,8 +232,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.LReylistfamiliar"
-       name="LReylistfamiliar 1.0.7"
-       version="1.0.7"
+       name="LReylistfamiliar Premium 1.0.8"
+       version="1.0.8"
        provider-name="LReylistfamiliar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
