@@ -320,7 +320,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.1.21"
+    version="4.1.22"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -330,7 +330,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Addon Retocado por LReylist</summary>
-    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
+    <description lang="es">Addon Retocado por LReylist...Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
     <summary lang="en">Movies and TV Shows on demand</summary>
     <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
     <platform>all</platform>
@@ -461,7 +461,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.32" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.33" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -470,7 +470,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Televisión a la carta</summary>
-    <description lang="es">Para ver la televisión por Internet, a la carta y desde tu media center</description>
+    <description lang="es">Addon retocado por LReylist... Para ver la televisión por Internet, a la carta y desde tu media center</description>
     <summary lang="en">TV on demand (Spanish)</summary>
     <description lang="en">Watch on demand spanish TV from your media center</description>
     <platform>all</platform>
