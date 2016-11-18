@@ -320,7 +320,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.1.2"
+    version="4.1.21"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -329,7 +329,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">Películas y series a la carta</summary>
+    <summary lang="es">Addon Retocado por LReylist</summary>
     <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
     <summary lang="en">Movies and TV Shows on demand</summary>
     <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
