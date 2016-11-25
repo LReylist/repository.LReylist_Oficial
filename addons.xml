@@ -184,7 +184,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.laliga" name="La Liga" version="0.0.16" provider-name="Topo">
+<addon id="plugin.video.laliga" name="La Liga" version="1.0.16" provider-name="Topo">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.liveresolver"  />
@@ -370,33 +370,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta17"
-    name="pelisalacarta17"
-    version="4.1.23"
-    provider-name="tvalacarta">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Addon Modificado por LReylist</summary>
-    <description lang="es">Addon Modificado por LReylist...Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
-    <summary lang="en">Movies and TV Shows on demand</summary>
-    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>http://www.mimediacenter.info/foro</forum>
-    <website>http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta</website>
-    <email>tvalacarta@gmail.com</email>
-    <source>https://github.com/tvalacarta/pelisalacarta</source>
-  </extension>
-  <extension point="xbmc.service" library="library_service.py" start="login|startup">
-  </extension>
-</addon>
-
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.13" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.16" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -414,7 +388,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated scrapers[CR]Cosmetics</news>
+		<news>Updated indexers[CR]Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -441,7 +415,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="2016.10.24" name="SportsDevil" provider-name="LRey-Sportdevil">
+<addon id="plugin.video.SportsDevil" version="2016.11.25" name="SportsDevil" provider-name="LRey-Sportdevil">
 
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
@@ -737,7 +711,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.627.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.1026.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
