@@ -415,7 +415,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="2016.11.25" name="SportsDevil" provider-name="LRey-Sportdevil">
+<addon id="plugin.video.SportsDevil" version="201611280" name="SportsDevil" provider-name="LRey-Sportdevil">
 
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
@@ -432,7 +432,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>LReylist</summary>
-    <description>Version retocada por LRey 24-10-2016</description>
+    <description>Version retocada por LRey 28-11-2016</description>
 	<description>No se autoriza su distribucion</description>
     <platform>all</platform>
   </extension>
