@@ -53,48 +53,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.arenavisionezy"	name="ArenaVision EZY" version="1.1.4" provider-name="AVEZY">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="program.plexus"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>ArenaVision EZY</summary>
-		<description>Interfaz para ArenaVision</description>
-		<platform>all</platform>
-	</extension>
-	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
-		<info compressed="false">https://avezy.tk/repo/addons.xml</info>
-		<checksum>https://avezy.tk/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://avezy.tk/repo/zip/</datadir>
-	</extension>
-</addon>
-
-<addon id="plugin.video.castaway" name="Castaway" version="0.2.81" provider-name="natko1412">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.beautifulsoup" version="3.2.1"/>
-		<import addon="script.module.requests"  />
-    	<import addon="script.module.addon.common" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="script.module.livestreamer" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Just a castaway.</summary>
-		<description lang="en">Visit TVADDONS.ag for support.
-		</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.Catoal"
        name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]6[/COLOR]"
        version="5.3.6"
@@ -131,31 +89,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.elitetorrent" name="[COLOR FF336699]EliteTorrent[/COLOR] viewer" version="1.2.5"
-       provider-name="mancuniancol">
-    <requires>
-        <import addon="xbmc.python" version="2.12.0"/>
-        <import addon="script.module.mctools" optional="false"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login">
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">se habla en castellano</summary>
-        <summary lang="es">se habla en castellano</summary>
-        <description lang="en">This Add-on is a viewer for EliteTorrent</description>
-        <description lang="es">Este es un Add-on es un visor para EliteTorrent</description>
-        <language></language>
-        <platform>all</platform>
-        <forum></forum>
-        <disclaimer lang="en">It is just for educational purpose[CR]Check if it is illegal in your country to use.
-        </disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    </extension>
-</addon>
-
 <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.1.3" provider-name="Vania Rupeni">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -182,24 +115,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.laliga" name="La Liga" version="1.0.16" provider-name="Topo">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.liveresolver"  />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
-		<description lang="en">Liga Española, Premier, Champions and much more</description>
-		<description lang="es">Liga Española, Premier, Champions y mucho más</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="plugin.video.LReylist"
@@ -320,7 +235,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.1.24"
+    version="4.1.25"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -346,7 +261,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta-ui"
     name="pelisalacarta UI"
-    version="4.1.24"
+    version="4.1.25"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
