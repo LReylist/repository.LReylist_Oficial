@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+        <setting label="Dirección URL (http://example.com):" type="text" id="url_address" default="http://www.divxatope.com"/>
+        <setting label="Files" type="lsep"/>
+        <setting label="Plugin to use:" type="labelenum" id="plugin" values="Quasar|KmediaTorrent|XBMCtorrent|Quasar"/>
+		<setting label="Overwrite Existent .strm Files:" type="bool" id="overwrite" default="false"/>
+		<setting label="Accept All Duplicated Files:" type="bool" id="duplicated" default="false"/>
+		<setting label="Notification Message" type="lsep"/>
+		<setting label="Time (miliseconds):" type="slider" id="time_noti" default="1500" range="0,125,2000" option="int" />  
+	</category>
+	<category label="Service">
+		<setting label="Run as Service (check in every login):" type="bool" id="service" default="true"/>
+		<setting label="Persistent Update @ 8h:" type="bool" id="persistent" enable="eq(-1,true)" default="false"/>
+        <setting label="Option:" type="enum" id="option" enable="eq(-2,true)" values="Estrenos de Cine|Películas en Alta Definición|Películas en 3D|Peliculas en Castellano|Películas Latino" default="Estrenos de Cine"/>
+        <setting label="Number of results pages:" type="slider" id="pages" default="5"  enable="eq(-3,true)" range="0,1,20" option="int" />
+	</category>
+	<category label="Movies Filters">
+		<setting label="Advance Setup (for 'AND' use space, for 'OR' use comma)" type="lsep"/>
+		<setting label="Accept File with:" type="text" id="movie_key_allowed" default=""/>
+		<setting label="Block File with:" type="text" id="movie_key_denied" default=""/>
+		<setting label="Easy Setup Keywords after the query" type="lsep"/>
+		<setting label="480p" type="labelenum" id="movie_qua1" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="HDTV" type="labelenum" id="movie_qua2" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="720p" type="labelenum" id="movie_qua3" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="1080p" type="labelenum" id="movie_qua4" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="3D" type="labelenum" id="movie_qua5" values="Accept File|Block File|Filter Off" default="Block File"/>
+		<setting label="CAM" type="labelenum" id="movie_qua6" values="Accept File|Block File|Filter Off" default="Block File"/>
+		<setting label="TeleSync" type="labelenum" id="movie_qua7" values="Accept File|Block File|Filter Off" default="Block File"/>
+	</category>
+<!--	<category label="TV Filters">
+		<setting label="Advance Setup (for 'AND' use space, for 'OR' use comma)" type="lsep"/>
+		<setting label="Accept File with:" type="text" id="TV_key_allowed" default=""/>
+		<setting label="Block File with:" type="text" id="TV_key_denied" default=""/>
+		<setting label="Easy Setup Keywords after the query" type="lsep"/>
+		<setting label="480p" type="labelenum" id="TV_qua1" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="HDTV" type="labelenum" id="TV_qua2" values="Accept File|Block File|Filter Off" default="Accept File"/>
+		<setting label="720p" type="labelenum" id="TV_qua3" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+		<setting label="1080p" type="labelenum" id="TV_qua4" values="Accept File|Block File|Filter Off" default="Filter Off"/>
+	</category> --->
+	<category label="Download Settings">
+        <setting label="Folders" type="lsep"/>
+		<setting label="Movie Folder:" type="folder" id="movie_folder" source="videos" option="writeable" default=""/>
+<!--		<setting label="Show Folder:" type="folder" id="show_folder" source="videos" option="writeable" default="special://temp/shows/"/> --->
+		<setting label="Limitation Size Movie Files" type="lsep"/>
+		<setting label="Minimum Size in GB (0 = Filter OFF):" type="slider" id="movie_min_size" default="0" range="0,0.25,10" option="float" />
+		<setting label="Maximum Size in GB (10 = Filter OFF):" type="slider" id="movie_max_size" default="10" range="0,0.25,10" option="float" />
+<!--		<setting label="Limitation Size TV Files" type="lsep"/>
+		<setting label="Minimum Size in GB (0 = Filter OFF):" type="slider" id="TV_min_size" default="0" range="0,0.25,10" option="float" />
+		<setting label="Maximum Size in GB (10 = Filter OFF):" type="slider" id="TV_max_size" default="10" range="0,0.25,10" option="float" /> -->
+	</category>
+</settings>

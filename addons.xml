@@ -235,7 +235,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.1.25"
+    version="4.1.26"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -261,7 +261,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta-ui"
     name="pelisalacarta UI"
-    version="4.1.25"
+    version="4.1.26"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -285,7 +285,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.16" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.18" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -303,7 +303,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated scrapers[CR]Cosmetics</news>
+		<news>Updated indexers[CR]Updated modules[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -554,6 +554,23 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
                 <forum>http://www.adultxbmc.com</forum>
                 <website>http://www.adultxbmc.com</website>
 	</extension>
+</addon>
+
+<addon id="script.cnubis"
+    name="Cnubis"
+    version="0.0.1"
+    provider-name="cnubis">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <website>https://cnubis.com</website>
+  </extension>
 </addon>
 
 <addon id="script.kodimastermaintenance"
