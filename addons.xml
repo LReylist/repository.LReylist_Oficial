@@ -235,7 +235,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.1.26"
+    version="4.1.27"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -261,7 +261,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta-ui"
     name="pelisalacarta UI"
-    version="4.1.26"
+    version="4.1.27"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
