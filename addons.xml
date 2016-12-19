@@ -53,6 +53,56 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.arenavisionezy"	name="ArenaVision EZY" version="1.2.1" provider-name="Wazzu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="program.plexus" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>ArenaVision EZY</summary>
+		<description>Interfaz para ArenaVision</description>
+		<platform>all</platform>
+		<license/>
+		<forum/>
+		<website/>
+		<email>egrueda@gmail.com</email>
+		<source/>
+	</extension>
+	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
+		<info compressed="false">https://avezy.tk/repo/addons.xml</info>
+		<checksum>https://avezy.tk/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://avezy.tk/repo/zip/</datadir>
+	</extension>
+</addon>
+
+<addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests"  />
+    	<import addon="script.module.addon.common" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.liveresolver"  />
+		<import addon="script.module.livestreamer" />
+
+
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Just a castaway.</summary>
+		<description lang="en">Visit TVADDONS.ag for support.
+		</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.Catoal"
        name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]6[/COLOR]"
        version="5.3.6"
@@ -115,6 +165,24 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.laliga" name="La Liga" version="1.0.17" provider-name="Topo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.liveresolver"  />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española, Premier, Champions and much more</description>
+		<description lang="es">Liga Española, Premier, Champions y mucho más</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.LReylist"
@@ -285,7 +353,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.18" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.19" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -303,11 +371,11 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated modules[CR]Cosmetics</news>
+		<news>Updated indexers[CR]Updated modules[CR]Updated providers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.35" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.42" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -326,7 +394,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
         <language>en</language>
         <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
         <summary><![CDATA[Quasar: Torrent streaming]]></summary>
-        <description><![CDATA[Stream torrent files]]> Full Pack Quasar PS: If you install Quasar not you must have installed Pulsar on Kodi / Este Pack tiene todas las versiones PD: Si instala Quasar no debe tener instalado Pulsar en Kodi </description>
+        <description><![CDATA[Stream torrent files]]></description>
     </extension>
 </addon>
 
@@ -467,6 +535,19 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repo.natko1412" name="natko1412 repo" version="2.0.0" provider-name="natko1412">
+<extension point="xbmc.addon.repository" name="Natko's Addon Repository">
+<info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
+<checksum>https://offshoregit.com/natko1412/addons.xml.md5</checksum>
+<datadir zip="true">https://offshoregit.com/natko1412/zips/</datadir>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary>Install all of Natko's Addons</summary>
+<description>Download and install addons by natko1412. For support visit XBMC thread on forum.hr</description>
+<platform>all</platform>
+</extension>
 </addon>
 
 <addon id="repository.pulsarunofficial" name="Pulsar [COLOR red]Unofficial [/COLOR]Repo" version="2.0.0" provider-name="mancuniancol,iCanuck">
