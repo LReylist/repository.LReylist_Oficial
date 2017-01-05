@@ -348,7 +348,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta-ui"
     name="pelisalacarta UI"
-    version="4.2.1"
+    version="4.2.2"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
