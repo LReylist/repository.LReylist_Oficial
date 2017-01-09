@@ -322,7 +322,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.2~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.3~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -348,7 +348,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 
 <addon id="plugin.video.pelisalacarta-ui"
     name="pelisalacarta UI"
-    version="4.2.2"
+    version="4.2.3"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -372,7 +372,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.19" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.22" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -390,7 +390,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated modules[CR]Updated providers[CR]Cosmetics</news>
+		<news>Updated providers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -579,21 +579,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
-<addon id="repository.pulsarunofficial" name="Pulsar [COLOR red]Unofficial [/COLOR]Repo" version="2.0.0" provider-name="mancuniancol,iCanuck">
-	<extension point="xbmc.addon.repository" name="Pulsar Unofficial Repository">
-       <info>http://offshoregit.com/pulsarunofficial/raw/master/addons.xml</info>
-       <checksum>http://offshoregit.com/pulsarunofficial/raw/master/addons.xml.md5</checksum>
-       <datadir zip="true">http://offshoregit.com/pulsarunofficial/raw/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Pulsar and Providers</summary>
-		<description>Download and install Pulsar and Providers</description>
-		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-	</extension>
-</addon>
-
 <addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
 	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
     <dir>
@@ -648,21 +633,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<platform>all</platform>
                 <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
                 <website>http://www.tvaddons.ag/</website>
-	</extension>
-</addon>
-
-<addon id="repository.xxxadultxbmc" name="AdultXBMC.com Add-on Repository" version="1.0.0" provider-name="adultxbmc.com">
-	<extension point="xbmc.addon.repository" name="AdultXBMC.com Add-on Repository">
-		<info compressed="false">https://offshoregit.com/adultxbmc/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/adultxbmc/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/adultxbmc/raw/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Adult Content for Kodi from High Quality Sources Only</summary>
-		<description>Collection of Adult Addons for Kodi by Various Developers</description>
-		<platform>all</platform>
-                <forum>http://www.adultxbmc.com</forum>
-                <website>http://www.adultxbmc.com</website>
 	</extension>
 </addon>
 
