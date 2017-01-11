@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.deportesalacarta"
+    name="Deportesalacarta"
+    version="1.03"
+    provider-name="deportesalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="es">Addon Modificado por LReylist</summary>
+    <description lang="es">Addon Modificado por LReylist. Todo los deporte que puedas encontrar en directo</description>
+    <summary lang="en">Addon Modificado por LReylist</summary>
+    <description lang="en">Addon Modificado por LReylist. Todo los deporte que puedas encontrar en directo</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <source>https://github.com/CmosGit/Mod_pelisalacarta_deportes</source>
+  </extension>
+</addon>
