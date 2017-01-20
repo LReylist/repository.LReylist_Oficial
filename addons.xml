@@ -104,8 +104,8 @@
 </addon>
 
 <addon id="plugin.video.Catoal"
-       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]6[/COLOR]"
-       version="5.3.6"
+       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]8[/COLOR]"
+       version="5.3.8"
        provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -126,15 +126,9 @@
     <provides>video</provides>
   </extension>
 
-     <extension point="xbmc.addon.repository" name="Catoal Repository">
-		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
-		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
-	</extension>
-
   <extension point="xbmc.addon.metadata">
-    <summary>Basado en LivestreamsPro</summary>
-    <description>Catoal</description>
+    <summary>Creado por Catoal</summary>
+    <description>Catoal 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -704,6 +698,25 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <source></source>
     <forum></forum>
     <website></website>
+  </extension>
+</addon>
+
+<addon id="script.module.liveresolver"
+     name="LiveResolver"
+     version="0.1.48"
+     provider-name="natko1412">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
+    <description lang="en"></description>
   </extension>
 </addon>
 

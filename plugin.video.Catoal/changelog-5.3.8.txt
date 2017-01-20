@@ -1,4 +1,10 @@
-﻿Versión 5.3.6
+﻿Versión 5.3.8
+Actualización del codigo para adaptarse a los nuevos Regex.
+
+Versión 5.3.7
+Eliminada el cargar lista.
+
+Versión 5.3.6
 Actualizado los conectores para mejorar y adaptarse a los nuevos regex.
 
 Versión 5.3.5
