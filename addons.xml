@@ -105,7 +105,7 @@
 
 <addon id="plugin.video.Catoal"
        name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]8[/COLOR]"
-       version="5.3.8"
+       version="5.3.81"
        provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -340,7 +340,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.6~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.61~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -364,7 +364,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.6~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.61~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -440,7 +440,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.quasar" name="Quasar" version="0.9.34" provider-name="scakemyer">
+<addon id="plugin.video.quasar" name="Quasar" version="0.9.35" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -459,7 +459,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
         <language>en</language>
         <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
         <summary><![CDATA[Quasar: Torrent streaming]]></summary>
-        <description><![CDATA[Stream torrent files]]></description>
+        <description><![CDATA[Stream torrent files]]> Full Pack Quasar PS: If you install Quasar not you must have installed Pulsar on Kodi / Este Pack tiene todas las versiones PD: Si instala Quasar no debe tener instalado Pulsar en Kodi </description>
     </extension>
 </addon>
 
