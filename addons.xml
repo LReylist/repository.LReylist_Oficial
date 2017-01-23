@@ -204,7 +204,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.laliga" name="La Liga" version="1.0.18" provider-name="Topo">
+<addon id="plugin.video.laliga" name="La Liga" version="1.0.19" provider-name="Topo">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.liveresolver"  />
@@ -213,7 +213,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<summary lang="en">Modificado por LReylist. Liga Española: La mejor liga del mundo</summary>
 		<description lang="en">Liga Española, Premier, Champions and much more</description>
 		<description lang="es">Liga Española, Premier, Champions y mucho más</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
@@ -618,6 +618,24 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons related to XBMC for Zemtv etc</summary>
 		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="1.0" provider-name="sClarke">
+	<extension point="xbmc.addon.repository" name="StreamHub Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">http://mkodi.co.uk/streamhub/repofiles/addons.xml</info>
+		<checksum>http://mkodi.co.uk/streamhub/repofiles/addons.xml.md5</checksum>
+		<datadir zip="true">http://mkodi.co.uk/streamhub/repofiles/Zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>MediaHub Repo</summary>
+		<description>Bringing you the MediaHub Addons.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
