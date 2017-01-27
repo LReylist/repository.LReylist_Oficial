@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.6" provider-name="LReylist">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />		
+	<import addon="script.module.requests"/> 
+	<import addon="script.common.plugin.cache"/>	
+	<import addon="script.module.dateutil"/>		
+	<import addon="script.module.t0mm0.common" optional="true"/>
+	<import addon="script.module.beautifulsoup" optional="true"/>	    
+	<import addon="script.module.mctools" optional="true"/>
+	<import addon="script.module.youtube.dl" optional="true"/>    
+	<import addon="plugin.video.youtube" optional="true"/>		
+	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+	<import addon="program.plexus" optional="true"/>	
+    <import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
+	<import addon="script.module.livesolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+	<provides>video</provides>
+    <summary lang="en">PalcoTV</summary>
+    <description lang="es">Addon Palco TV, por LReylist.</description>
+    <disclaimer lang="es"></disclaimer>
+	<news></news>
+	  <assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>art/shot1.png</screenshot>
+		<screenshot>art/shot2.png</screenshot>
+		<screenshot>art/shot3.png</screenshot>
+		<screenshot>art/shot4.png</screenshot>
+	  </assets>
+	<platform>all</platform>
+  </extension>
+</addon>
