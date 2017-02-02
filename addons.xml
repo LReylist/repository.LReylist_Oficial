@@ -367,7 +367,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.6" provider-name="LReylist">
+<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.61" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -455,7 +455,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.0" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.1" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -480,7 +480,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated indexers[CR]Updated providers[CR]Cosmetics</news>
+		<news>Updated providers</news>
 	</extension>
 </addon>
 
@@ -530,8 +530,11 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="201701250" name="SportsDevil" provider-name="LRey-Sportdevil">
-
+<addon
+  id="plugin.video.SportsDevil"
+  version="201702010"
+  name="SportsDevil"
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -546,9 +549,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>LReylist</summary>
-    <description>Version retocada por LRey 28-11-2016</description>
-	<description>No se autoriza su distribucion</description>
+    <summary>Ya me cansé de ponerlo en Inglés... a partir de ahora todo en Español, el mejor idioma del mundo :-)</summary>
+    <description>Para poder ver múltiples enlaces de canales, tanto en los módulos como en 'llamadas' desde otros plugins... Modificado por DarioMO: 01/02/2017 (de la versión de Hubba del 31/12/2016 y Jairox 26/01/2017)... +Info en Registro de Cambios (Gracias Goldonx, Nano, JairoX y JxxxxxX!!)... Soporte para llamadas p2p con PluginS p2pStreamS y PLEXUS</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
@@ -719,41 +722,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="1.0" provider-name="sClarke">
-	<extension point="xbmc.addon.repository" name="StreamHub Repository">
-	<dir>
-		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	</dir>
-		<info compressed="false">http://mkodi.co.uk/streamhub/repofiles/addons.xml</info>
-		<checksum>http://mkodi.co.uk/streamhub/repofiles/addons.xml.md5</checksum>
-		<datadir zip="true">http://mkodi.co.uk/streamhub/repofiles/Zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>MediaHub Repo</summary>
-		<description>Bringing you the MediaHub Addons.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-    <addon id="repository.ViendoKodiStreaming" name="[COLOR blue]ViendoKodi[/COLOR] [COLOR red]Streaming[/COLOR] Repository" version="0.1.0" provider-name="Viendo Kodi Team">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR blue]ViendoKodi[/COLOR] [COLOR red]Streaming[/COLOR] Repository">
-            <info compressed="false">https://raw.githubusercontent.com/ViendoKodi/_repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ViendoKodi/_repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/ViendoKodi/_repo/master/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Tv y Cine para Kodi</summary>
-            <description>Permite visualizar los canales de tv ofrecidos por diferentes Webs.[CR] Ademas de peliculas de web de torrent.</description>
-            <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.xbmchub" name="TVADDONS.ag Addon Repository" version="1.0.6" provider-name="tvaddons.ag">

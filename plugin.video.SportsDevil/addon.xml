@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SportsDevil" version="201701250" name="SportsDevil" provider-name="LRey-Sportdevil">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.SportsDevil"
+  version="201702010"
+  name="SportsDevil"
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -15,9 +18,9 @@
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>LReylist</summary>
-    <description>Version retocada por LRey 28-11-2016</description>
-	<description>No se autoriza su distribucion</description>
+    <summary>Ya me cansé de ponerlo en Inglés... a partir de ahora todo en Español, el mejor idioma del mundo :-)</summary>
+    <description>Para poder ver múltiples enlaces de canales, tanto en los módulos como en 'llamadas' desde otros plugins... Modificado por DarioMO: 01/02/2017 (de la versión de Hubba del 31/12/2016 y Jairox 26/01/2017)... +Info en Registro de Cambios (Gracias Goldonx, Nano, JairoX y JxxxxxX!!)... Soporte para llamadas p2p con PluginS p2pStreamS y PLEXUS</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
