@@ -547,7 +547,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>LReylist</summary>
-    <description>Version modificada por LRey 02-02-2016</description>
+    <description>Version retocada por LRey 02-02-2017</description>
 	<description>No se autoriza su distribucion</description>
     <platform>all</platform>
   </extension>
