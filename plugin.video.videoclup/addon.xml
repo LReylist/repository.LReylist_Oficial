@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.videoclub"
-       name="[COLOR deepskyblue]Video-Club[/COLOR]"
-       version="1.3"
-       provider-name="LReylist">
+<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="1.3" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
