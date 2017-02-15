@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.indigo" version="1.0.2" name="Indigo" provider-name="tvaddons.ag">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable </provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Indigo is your gateway to the world of unofficial Kodi addons!</summary>
+        <description lang="en">Indigo is your gateway to the world of unofficial Kodi addons! Please visit www.tvaddons.ag for addon support and www.cablecutters.com for hardware support.</description>
+        <disclaimer lang="en">Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>https://forums.tvaddons.ag</forum>
+        <website>https://www.tvaddons.ag</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
 <addon id="plugin.stream.vaughnlive.tv"
        name="Vaughn Live"
        version="0.1.8"
@@ -156,7 +177,7 @@
 
 <addon id="plugin.video.deportesalacarta"
     name="Deportesalacarta"
-    version="1.031"
+    version="1.10"
     provider-name="deportesalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -166,10 +187,6 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  <summary lang="es">Addon Modificado por LReylist</summary>
-    <description lang="es">Addon Modificado por LReylist. Todo los deporte que puedas encontrar en directo</description>
-    <summary lang="en">Addon Modificado por LReylist</summary>
-    <description lang="en">Addon Modificado por LReylist. Todo los deporte que puedas encontrar en directo</description>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <source>https://github.com/CmosGit/Mod_pelisalacarta_deportes</source>
@@ -407,7 +424,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.66~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.67~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -431,7 +448,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.66~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.67~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -553,7 +570,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.34" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.41" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -561,8 +578,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">Televisión a la carta</summary>
-    <description lang="es">Addon retocado por LReylist... Para ver la televisión por Internet, a la carta y desde tu media center</description>
+    <summary lang="es">Televisión a la carta, Version no oficial.</summary>
+    <description lang="es">Addon Modificado por LReylist... Para ver la televisión por Internet, a la carta y desde tu media center</description>
     <summary lang="en">TV on demand (Spanish)</summary>
     <description lang="en">Watch on demand spanish TV from your media center</description>
     <platform>all</platform>
@@ -576,10 +593,10 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.videoclup"
-       name="[COLOR yellow]Solo[/COLOR][COLOR red]Cine[/COLOR]"
-       version="1.2"
-       provider-name="SoloCine">
+<addon id="plugin.video.videoclub"
+       name="[COLOR deepskyblue]Video-Club[/COLOR]"
+       version="1.3"
+       provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -601,9 +618,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">FREE POR UN MUNDO MEJOR</summary>
-    <description lang="en">FREE PELICULAS ONLINE</description>
-    <disclaimer lang="en">SoloCine </disclaimer>
+    <summary lang="en">Modificacion By Lreylist</summary>
+    <description lang="en">Modificacion By Lreylist</description>
+    <disclaimer lang="en">Video-Club </disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
@@ -905,14 +922,16 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="script.xbmcbackup"
-    name="Backup" version="1.0.6" provider-name="robweber">
+    name="Backup" version="1.0.9" provider-name="robweber">
   <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
+	<!-- jarvis -->
+    <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.httplib2" version="0.8.0" />
     <import addon="script.module.oauth2client" version="1.4.7" />
     <import addon="script.module.uritemplate" version="0.6" />
     <import addon="script.module.yaml" version="3.11"/>
-    <import addon="script.module.googleapi" version="1.4.0" />
+    <import addon="script.module.googleapi" version="1.4.2" />
+	<import addon="script.module.requests" version="2.9.1" />
   </requires>
   <extension point="xbmc.python.script" library="default.py">
      <provides>executable</provides>
