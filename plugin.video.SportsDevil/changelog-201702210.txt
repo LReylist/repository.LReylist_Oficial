@@ -1,3 +1,10 @@
+v 999920170220
+-------------------------------------------------------------------------------------------------
+-Multiples Fixes de diferentes Catchers (Goldonx, Hubba3, Jairox y DarioMO)
+-Nuevos Módulos de Nano
+
+
+
 v 999920170202
 -------------------------------------------------------------------------------------------------
 -Multiples Fixes de diferentes Catchers (Goldonx, Hubba3, Jairox y DarioMO)
