@@ -298,9 +298,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.LReylistfamiliar"
-       name="LReylistfamiliar Premium 1.0.8"
-       version="1.0.8"
-       provider-name="LReylistfamiliar">
+       name="[COLOR deepskyblue]LReylistfamiliar 2.0.0[/COLOR]"
+       version="2.0.0"
+       provider-name="LRey">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -315,13 +315,15 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
-	</requires>
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
+
   <extension point="xbmc.addon.metadata">
-    <summary>Gracias por usar LReylistfamiliar</summary>
-    <description>LReylistfamiliar, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
+    <summary>Creado por LRey</summary>
+    <description>LReylist 2017, no se autoriza la distribucion de este addon. La version familiar no contiene material para adultos ni la zona de pruebas</description>
     <platform>all</platform>
   </extension>
 </addon>
