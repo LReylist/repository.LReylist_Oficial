@@ -1,0 +1,36 @@
+﻿
+Versión 1.0.6
+Actualizado decodificadores imagenes de fondo actualizada y compatibilidad con appel tv4
+Actualización de codes.
+Añadido livestreams script addons
+Juegos de comandos
+Soporte para cifrado XML / M3U8
+
+Version 1.0.5
+Corregidos errores de codigo interno de los nuevos canales de eventos deportivos.
+
+Version 1.0.4 
+Se hará una versión del addon sin contenido para adultos, y por supuesto se mantendrá la versión completa.
+Ademas se esta reestructurando la sección de mis películas, se implementaran varias categorías dentro de la sección.
+Se corrigen varios errores de estruccturacion.
+se añadirán nuevas miniaturas para los canales que aun no las tienen.
+
+Version 1.0.3 
+Rectificación de AADecoder
+
+Mejorada las funciones básicas y recopilación de códigos para su visionado.
+
+Revision y modificacion del Addon
+
+Actualizacion de los fondos 
+
+Corrección de errores en listrepeat por artículos individuales. También ahora param0 está disponible, que será el número de fila.
+Desactivada la opcion parental por no funcionar bien en Android
+
+Mejoras en el rendimiento
+
+Versión 1.0.2
+Codificacion de listas de LReylistfamiliar.
+
+Versión 1.0.1
+Primera version del plugin. Todas las listas incluidas son propiedad de sus creadores,Lreylist no se hace responsable de su contenido.
