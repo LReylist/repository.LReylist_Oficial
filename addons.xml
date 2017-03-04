@@ -424,7 +424,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.68~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.690~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -448,7 +448,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.68~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.690~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -472,7 +472,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.2" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.3" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -497,7 +497,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Tweaks</news>
+		<news>Updated Providers</news>
 	</extension>
 </addon>
 
@@ -714,13 +714,13 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
-<addon id="repository.shani" name="Shanis Addon Repository" version="2.8" provider-name="Shani">
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.9" provider-name="Shani">
 	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
-    <dir>
-            <info compressed="false">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml</info>
-            <checksum>https://raw.github.com/Shani-08/ShaniXBMCWork2/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/Shani-08/ShaniXBMCWork2/master/zips</datadir>
-    </dir>
+        <dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
 
     <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
     <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
