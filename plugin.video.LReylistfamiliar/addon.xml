@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.LReylistfamiliar"
-       name="LReylistfamiliar Premium 1.0.8"
-       version="1.0.8"
+       name="[COLOR skyblue]LReylistfamiliar 2.0.1[/COLOR]"
+       version="2.0.1"
        provider-name="LReylistfamiliar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -17,13 +17,13 @@
     <import addon="script.module.simplejson" />    
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
-	</requires>
+  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Gracias por usar LReylistfamiliar</summary>
-    <description>LReylistfamiliar, la otra forma de ver la tele. Cine, Series y Canales online de España y Latinoamerica</description>
+    <summary>Creado por LRey</summary>
+    <description>LReylist 2017, no se autoriza la distribucion de este addon. La version familiar no contiene material para adultos ni la zona de pruebas</description>
     <platform>all</platform>
   </extension>
 </addon>
