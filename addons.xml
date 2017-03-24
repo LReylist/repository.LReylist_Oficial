@@ -220,27 +220,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.flooxer" name="Flooxer" version="1.0.1" provider-name="Wazzu">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Flooxer</summary>
-    <description>Flooxer parser</description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.1.3" provider-name="Vania Rupeni">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -568,7 +547,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="201703060" name="SportsDevil" provider-name="LRey-SportsDevil">
+<addon id="plugin.video.SportsDevil" version="2017.03.20" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
@@ -582,10 +561,18 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     library="default.py">
    <provides>video</provides>
   </extension>
+
+  <extension point="xbmc.addon.repository" name="Catoal Repository">
+		<info compressed="false">https://offshoregit.com/unofficialsportsdevil/addons.xml</info>
+		<checksum>https://offshoregit.com/unofficialsportsdevil/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/unofficialsportsdevil/</datadir>
+  </extension>
+
+  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>LReylist</summary>
-    <description>Version retocada por LRey 06-03-2017</description>
-	<description>No se autoriza su distribucion</description>
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
 </addon>
@@ -753,6 +740,37 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<description>Go though the plugins and see what you like</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.unofficialsportsdevil" name="Unofficial SportsDevil Repository" version="1.0.0" provider-name="unofficialsportsdevil">
+ <extension point="xbmc.addon.repository" name="Unofficial SportsDevil Repository">
+  <dir>
+   <info compressed="false">
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml
+   </info>
+   <checksum>
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5
+   </checksum>
+   <datadir zip="true">
+    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/
+   </datadir>
+  </dir>
+  <info compressed="false">
+   https://offshoregit.com/unofficialsportsdevil/addons.xml
+  </info>
+  <checksum>
+   https://offshoregit.com/unofficialsportsdevil/addons.xml.md5
+  </checksum>
+  <datadir zip="true">https://offshoregit.com/unofficialsportsdevil/</datadir>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <summary>Unofficial SportsDevil Updates for Kodi</summary>
+  <description>Unofficial SportsDevil Updates for Kodi</description>
+  <platform>all</platform>
+  <forum>
+   https://forums.tvaddons.ag/sportsdevil-addon-for-kodi/
+  </forum>
+ </extension>
 </addon>
 
 <addon id="repository.xbmchub" name="TVADDONS.AG Add-on Repository" version="1.0.7" provider-name="tvaddons.ag">
