@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.SportsDevil" version="2017.03.20" name="SportsDevil" provider-name="SportsDevil">
+<addon id="plugin.video.SportsDevil" version="2017.03.28" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
@@ -12,29 +12,7 @@
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
-  </extension>  
-  
-  <extension point="xbmc.addon.repository" name="Unofficial SportsDevil Repository">
-  <dir>
-   <info compressed="false">
-    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml
-   </info>
-   <checksum>
-    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5
-   </checksum>
-   <datadir zip="true">
-    https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/
-   </datadir>
-  </dir>
-  <info compressed="false">
-   https://offshoregit.com/unofficialsportsdevil/addons.xml
-  </info>
-  <checksum>
-   https://offshoregit.com/unofficialsportsdevil/addons.xml.md5
-  </checksum>
-  <datadir zip="true">https://offshoregit.com/unofficialsportsdevil/</datadir>
- </extension>
-
+  </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
