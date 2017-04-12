@@ -592,7 +592,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.0" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
+<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.1" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
