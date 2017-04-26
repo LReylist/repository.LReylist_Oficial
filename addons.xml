@@ -266,8 +266,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.LReylist"
-       name="[COLOR deepskyblue]LReylist 2.0.0[/COLOR]"
-       version="2.0.0"
+       name="[COLOR deepskyblue]LReylist 2.0.2[/COLOR]"
+       version="2.0.2"
        provider-name="LRey">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -297,8 +297,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </addon>
 
 <addon id="plugin.video.LReylistfamiliar"
-       name="[COLOR skyblue]LReylistfamiliar 2.0.1[/COLOR]"
-       version="2.0.1"
+       name="[COLOR skyblue]LReylistfamiliar 2.0.2[/COLOR]"
+       version="2.0.2"
        provider-name="LReylistfamiliar">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
