@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.703~beta3" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.01~final" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -11,7 +11,7 @@
     <summary lang="es">Addon Modificado por LReylist, Version no oficial.</summary>
     <description lang="es">Addon Modificado por LReylist. Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
     <summary lang="en">Movies and TV Shows on demand</summary>
-    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... Everything is on the net, and now on your media center.</description>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>http://www.mimediacenter.info/foro</forum>

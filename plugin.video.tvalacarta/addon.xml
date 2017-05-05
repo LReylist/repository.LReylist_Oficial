@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.42" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="tvalacarta"  version="4.0.51" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-  <extension point="xbmc.addon.metadata">
+ <extension point="xbmc.addon.metadata">
     <summary lang="es">Televisión a la carta, Version no oficial.</summary>
     <description lang="es">Addon Modificado por LReylist... Para ver la televisión por Internet, a la carta y desde tu media center</description>
     <summary lang="en">TV on demand (Spanish)</summary>
@@ -21,4 +21,3 @@
   <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
 </addon>
-
