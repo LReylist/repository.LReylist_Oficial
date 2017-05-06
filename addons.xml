@@ -423,7 +423,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.80~final" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.81" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -447,7 +447,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.80~final" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.81" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -543,6 +543,24 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
         <license><![CDATA[Non commercial. See https://github.com/scakemyer/plugin.video.quasar/blob/master/LICENSE]]></license>
         <summary><![CDATA[Quasar: Torrent streaming]]></summary>
         <description><![CDATA[Stream torrent files]]> Full Pack Quasar PS: If you install Quasar not you must have installed Pulsar on Kodi / Este Pack tiene todas las versiones PD: Si instala Quasar no debe tener instalado Pulsar en Kodi </description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.series" name="[COLOR deepskyblue]Video-club de series[/COLOR]" version="1.0.0" provider-name="Lreylist">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Series</summary>
+    <description>Video club destinado a las series de ayer y de hoy.</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
     </extension>
 </addon>
 
