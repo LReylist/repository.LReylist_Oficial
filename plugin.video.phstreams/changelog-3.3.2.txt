@@ -1,0 +1,2 @@
+[B]3.3.2[/B]
+Module updates - scraper changes - debrid fixes
