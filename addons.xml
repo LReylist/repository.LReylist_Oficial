@@ -123,10 +123,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.Catoal"
-       name="Catoal[COLOR blue] 5[/COLOR].[COLOR yellow]3[/COLOR].[COLOR red]8[/COLOR]"
-       version="5.3.81"
-       provider-name="Catoal">
+<addon id="plugin.video.Catoal" name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]" version="5.4.1" provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -446,7 +443,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.82~dfinal" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.83~afinal" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -470,7 +467,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.82~dfinal" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.83~afinal" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -587,7 +584,11 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SportsDevil" version="2017.03.28" name="SportsDevil" provider-name="SportsDevil">
+<addon
+  id="plugin.video.SportsDevil"
+  version="2017.05.19"
+  name="SportsDevil"
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
