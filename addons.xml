@@ -403,7 +403,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.63" provider-name="LReylist">
+<addon id="plugin.video.palcotv" name="[COLOR gold]Canal Cocina[/COLOR]" version="0.3.64" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -428,7 +428,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   <extension point="xbmc.addon.metadata">
 	<provides>video</provides>
     <summary lang="en">PalcoTV</summary>
-    <description lang="es">Addon Palco TV, por LReylist.</description>
+    <description lang="es">Addon Canal Cocina, por LReylist.</description>
     <disclaimer lang="es"></disclaimer>
 	<news></news>
 	  <assets>
