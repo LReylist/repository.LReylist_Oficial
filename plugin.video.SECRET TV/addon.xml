@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.SECRET TV"
-       name="SECRET TV"
-       version="0.1"
-       provider-name="SECRET TV ACESTREAM">
+<addon id="plugin.video.SECRET TV" name="SECRET TV" version="0.1" provider-name="SECRET TV ACESTREAM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
