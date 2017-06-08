@@ -491,35 +491,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.3.2" provider-name="tvaddons.ag">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="script.video.F4mProxy" version="2.2.3"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Phoenix</summary>
-		<description lang="en">Discover Great Streaming Playlists, Please visit www.tvaddons.ag for help and support!</description>
-		<platform>all</platform>
-		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
-		<website>http://www.tvaddons.ag/</website>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>Module updates - scraper changes - debrid fixes</news>
-	</extension>
-</addon>
-
 <addon id="plugin.video.pulsar" name="Pulsar" version="0.6.1" provider-name="steeve">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -662,6 +633,39 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <description lang="en">Modificacion By Lreylist</description>
     <disclaimer lang="en">Video-Club </disclaimer>
 	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ZemTV-shani"
+       name="Zem"
+       version="6.7.1"
+       provider-name="shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+       	<import addon="script.module.elementtree" version="1.2.8"/>
+
+
+    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
+    <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with any of the content provider.</disclaimer>
+    <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
+    <email>@shani_08_kodi</email>
+    <platform>all</platform>
+
+
   </extension>
 </addon>
 
