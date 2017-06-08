@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Catoal" name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]" version="5.4.1" provider-name="Catoal">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.SECRET TV"
+       name="SECRET TV"
+       version="0.1"
+       provider-name="SECRET TV ACESTREAM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
- 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Catoal</summary>
-    <description>Catoal 2017</description>
+    <summary>Addon de Filmes, Series, Radios, Televisao, etc..</summary>
+    <description>No addon SECRET TV podes ver Filmes, Series, Televisao, Radios, Desporto e YouTube!</description>
     <platform>all</platform>
   </extension>
 </addon>

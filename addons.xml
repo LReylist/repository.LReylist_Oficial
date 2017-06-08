@@ -20,32 +20,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.stream.vaughnlive.tv"
-       name="Vaughn Live"
-       version="0.1.8"
-       provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" />
-  	<import addon="script.common.plugin.cache" />
-  	<import addon="script.module.t0mm0.common" optional="true" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
-  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
-  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-    <forum></forum>
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
-</addon>
-
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
        version="2.5.1"
@@ -121,33 +95,6 @@
 
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="plugin.video.Catoal" name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]" version="5.4.1" provider-name="Catoal">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por Catoal</summary>
-    <description>Catoal 2017</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.cine" name="Cine" version="1.0.14" provider-name="Topo">
@@ -537,6 +484,33 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
+<addon id="plugin.video.SECRET TV"
+       name="SECRET TV"
+       version="0.1"
+       provider-name="SECRET TV ACESTREAM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Addon de Filmes, Series, Radios, Televisao, etc..</summary>
+    <description>No addon SECRET TV podes ver Filmes, Series, Televisao, Radios, Desporto e YouTube!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.series" name="[COLOR deepskyblue]Video-club de series[/COLOR]" version="1.0.0" provider-name="Lreylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -553,35 +527,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <license></license>
     <forum></forum>
     </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="2017.06.03"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.livestreamer" />
-   <import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different sports streaming sites</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]"  version="4.0.52" provider-name="tvalacarta">
@@ -730,20 +675,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<summary>BassFox Official Repository</summary>
                 <description lang="en">Install Addon Official Bass Fox and other add-ons that are complementary help in support links</description>
    		<description lang="es">Instala el Addon Oficial BassFox y los otros add-ons que son complementos de ayuda en la reproducción de las listas</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.catoal" name="Catoal repository" version="1.0.0" provider-name="Catoal">
-	<extension point="xbmc.addon.repository" name="Catoal Repository">
-		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
-		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Catoal Addon</summary>
-		<description>Addon Description</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
