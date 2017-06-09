@@ -494,7 +494,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
   </requires>
