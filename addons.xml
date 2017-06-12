@@ -484,7 +484,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.SECRET TV" name="SECRET TV" version="0.1" provider-name="SECRET TV ACESTREAM">
+<addon id="plugin.video.secrettv" name="Secret TV" version="0.1" provider-name="SECRET TV ACESTREAM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
