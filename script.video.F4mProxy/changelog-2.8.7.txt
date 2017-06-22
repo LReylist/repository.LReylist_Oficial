@@ -1,3 +1,61 @@
+[B]Version 2.8.7[/B]
+Support for HLSDIR which will return m3u8 but with local address so the f4mproxy will fetch the contents now kodi player, also fixed the bug at close
+[B]Version 2.8.6[/B]
+revert URL status, no error to be shown now
+[B]Version 2.8.5[/B]
+HSL bug
+[B]Version 2.8.4[/B]
+fixing wrong incoming URL
+[B]Version 2.8.3[/B]
+relaxed init check
+[B]Version 2.8.2[/B]
+return quickly if not playable - better message
+[B]Version 2.8.1[/B]
+return quickly if not playable
+[B]Version 2.8.0[/B]
+fixes for krypton, still in beta
+[B]Version 2.7.9[/B]
+Multiple try with TSDownloader
+[B]Version 2.7.8[/B]
+HLS quality issue
+[B]Version 2.7.7[/B]
+TSDownloader bug in logging
+[B]Version 2.7.6[/B]
+ua randomization
+[B]Version 2.7.5[/B]
+HLS sleep time
+[B]Version 2.7.3[/B]
+HLS fwd error
+[B]Version 2.7.0[/B]
+HLS fwd error
+[B]Version 2.6.9[/B]
+removed extension
+[B]Version 2.6.8[/B]
+bug fix
+[B]Version 2.6.7[/B]
+proxy and user agent
+[B]Version 2.6.6[/B]
+not so strick check for TS, little more
+[B]Version 2.6.5[/B]
+not so strick check for TS
+[B]Version 2.6.4[/B]
+redirector support
+[B]Version 2.6.3[/B]
+hlsretry little time change
+[B]Version 2.6.2[/B]
+iconImage support
+[B]Version 2.6.1[/B]
+callback in HLSRETRY
+[B]Version 2.6.0[/B]
+HLSRETRY in f4mproxy improvements
+
+[B]Version 2.5.8[/B]
+TSDownloader second improvements again
+
+[B]Version 2.5.7[/B]
+TSDownloader second improvements
+
+
 [B]Version 0.0.1[/B]
 - Initial Release.
 [B]Version 1.0.3[/B]
@@ -110,13 +168,16 @@ request module in hls
 [B]Version 2.5.1[/B]
 proxy issue in hls
 [B]Version 2.5.2[/B]
-hls stop bug
+auth param for hls if you want to ignore key url and pass yours
 [B]Version 2.5.3[/B]
-iconImage added
-
+ignore unknown m3u8 tags
 [B]Version 2.5.4[/B]
-iconImage added
+m3u8 more wait of no data
 [B]Version 2.5.5[/B]
-hls top when error
+m3u8 more wait of no data
+[B]Version 2.5.6[/B]
+m3u8 fine tuning
+REVERSED
+
 
 
