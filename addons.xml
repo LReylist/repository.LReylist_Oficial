@@ -720,21 +720,22 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 </extension>
 </addon>
 
-<addon id="script.cnubis"
-    name="Cnubis"
-    version="0.0.1"
-    provider-name="cnubis">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <website>https://cnubis.com</website>
-  </extension>
+<addon id="repository.smash" name="Smash repository" version="1.1.1" provider-name="SMASH">
+	<extension point="xbmc.addon.repository" name="Smash repository">
+	<dir>
+        <info compressed="false">https://mediarepos.net/Repos/smashrepo/addons.xml</info>
+        <checksum>https://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
+        <datadir zip="true">https://mediarepos.net/Repos/smashrepo/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">[B]Smash Repo Change Log 1.1.0[/B] view repo info and read whats there [CR] - If want to donate its up to you paypal.me/BrianSMASH [CR] - Fixes To Repo [CR] - fixing other things, check for updates before going into vid addons</description>
+		<platform>all</platform>
+		<forum></forum>
+        <website></website>
+		<news>Cause of me getting donations from some of you wonderful people, some guys under two groups started to attack youtubers who reviewed this repo and attacked me cause you guys the community wanted to donate and help house the addons on here now and if the devs come back to give them a temp home, this is why i did refund you guys its up to you now if want to support this and me i am helping not scamming anyone and them two groups made it like i was</news>
+	</extension>
 </addon>
 
 <addon id="script.kodimastermaintenance"
