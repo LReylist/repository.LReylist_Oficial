@@ -501,9 +501,11 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-
-<addon id="plugin.video.series" name="[COLOR deepskyblue]Video-club de series[/COLOR]" version="2.0.0" provider-name="series">
-<requires>
+<addon id="plugin.video.series"
+       name="[COLOR skyblue]Videoclub de Series[/COLOR]"
+       version="2.0.0"
+       provider-name="LReylist">
+  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -522,8 +524,8 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por LRey</summary>
-    <description>Videoclub de Series 2017, no se autoriza la distribucion de este addon.</description>
+    <summary>Creado por LReylist</summary>
+    <description>Video Club de Series 2017, no se autoriza la distribucion de este addon. </description>
     <platform>all</platform>
   </extension>
 </addon>

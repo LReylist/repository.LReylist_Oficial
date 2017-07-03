@@ -30,7 +30,7 @@ Desactivada la opcion parental por no funcionar bien en Android
 Mejoras en el rendimiento
 
 Versión 1.0.2
-Codificacion de listas de seriesfamiliar.
+Codificacion de listas de series.
 
 Versión 1.0.1
-Primera version del plugin. Todas las listas incluidas son propiedad de sus creadores,series no se hace responsable de su contenido.
+Primera version del plugin. Todas las listas incluidas son propiedad de sus creadores,Lreylist no se hace responsable de su contenido.
