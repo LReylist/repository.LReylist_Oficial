@@ -553,6 +553,27 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
+<addon id="plugin.video.streamarmy" name="[COLOR yellow]STREAM ARMY[/COLOR]" version="4.1.5" provider-name="Stream Army">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.urlresolver"  version="3.0.31"/>
+    <import addon="script.module.liveresolver" version="0.1.49"/>
+    <import addon="script.common.plugin.cache" version="2.5.8"/>
+    <import addon="script.module.metahandler" version="2.9.0"/>
+    <import addon="plugin.video.youtube" version="5.3.6" optional="false" />
+    <import addon="plugin.video.f4mTester" version="2.7.1" optional="false" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Home Of Stream Army Add-on :: We Do Not Host Any Content, We Only Act As An Advanced Search Engine</summary>
+    <description lang="en">@username668  / @_MANC_</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]"  version="4.0.52" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -745,6 +766,19 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<forum></forum>
         <website></website>
 		<news>Cause of me getting donations from some of you wonderful people, some guys under two groups started to attack youtubers who reviewed this repo and attacked me cause you guys the community wanted to donate and help house the addons on here now and if the devs come back to give them a temp home, this is why i did refund you guys its up to you now if want to support this and me i am helping not scamming anyone and them two groups made it like i was</news>
+	</extension>
+</addon>
+
+<addon id="repository.StreamArmy" name="[COLOR crimson]S[COLOR silver]tream Army Repo[/COLOR]" version="5.1" provider-name="@Nemzzy668 / @_Manc_">
+	<extension point="xbmc.addon.repository" name="Stream Army">
+		<info compressed="false">https://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml</info>
+        <checksum>http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://raw.githubusercontent.com/nemesis668/repository.streamarmy/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Stream Army Repo</summary>
+		<description>Repo For Stream Army, Bought to you by @Nemzzy668 /  @_MANC_</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
