@@ -265,6 +265,29 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
+<addon id="plugin.video.mitvspain"
+    name="Mitvspain"
+    version="1.1.4"
+    provider-name="Marce - Mitv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... Todo está en Internet, y ahora en tu media center.</description>
+    <summary lang="en">Movies and TV Shows on demand</summary>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... Everything is on the net, and now on your media center.</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+
 <addon id="plugin.video.newpct1" name="[COLOR FFFF0000]NewPCT1[/COLOR] viewer" version="1.2.5"
        provider-name="mancuniancol">
     <requires>
@@ -703,6 +726,20 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
+<addon id="repository.kodispain" name="kodispain repository" version="1.0" provider-name="joheos11">
+	<extension point="xbmc.addon.repository" name="KodiSpain repository">
+		<info compressed="false">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>-KodiSpain Repo</summary>
+		<description>Repositorio creado para grupo telegram http://t.me/kodispain</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.LReylist_Oficial" name="LReylist, official Repo" version="1.0.0" provider-name="LRey">
 	<extension point="xbmc.addon.repository" name="LReylist official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master/addons.xml</info>
@@ -713,6 +750,35 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<summary>LReylist, official Repo</summary>
    		<description lang="en">No se autoriza la distribucion de este respositorio</description>
 		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.mitvspain" name="MiTv Repository" version="1.0.1" provider-name="Marce - MiTv">
+	<extension point="xbmc.addon.repository" name="MiTv Repository">
+		<info compressed="false">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/repo/</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizaciones Kodi addons</summary>
+		<description>Repositorio con todo lo necesario para instalar sin problemas Marce - MiTv</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.myshows.me" name="MyShows.me Kodi Repo" version="1.0.5" provider-name="DiMartino">
+	<extension point="xbmc.addon.repository" name="MyShows.me Kodi Repo">
+		<info compressed="false">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
+		<checksum>http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
+		<datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Устанавливайте дополнения из репозитория MyShows.me</summary>
+		<description>Дополнения для Kodi</description>
+		<disclaimer>DiMartino</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -745,6 +811,20 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	</extension>
 </addon>
 
+<addon id="repository.ronniehd" name="RonnieHD repository" version="1.0.1" provider-name="RonnieHD">
+	<extension point="xbmc.addon.repository" name="RonnieHD Repository">
+		<info compressed="false">https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/ronniehd/repository.ronniehd/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Third party Kodi addons updates/mods</summary>
+		<description>RonnieHD Repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.wiiego" name="Wiiego's XBMC Addons" version="1.0.1" provider-name="wiiego">
 	<extension point="xbmc.addon.repository" name="Wiiego's XBMC Addons Repository">
 		<info compressed="false">https://github.com/diegofn/wiiego-xbmc-addons/raw/master/addons.xml</info>
@@ -754,6 +834,19 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Wiiego's Addons</summary>
 		<description>Download and install multimedia addons by Wiiego</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
+	<extension point="xbmc.addon.repository" name="Youtube Addon Repository">
+		<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
+		<checksum>https://github.com/jdf76/repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/jdf76/repository/raw/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Kodis Youtube Addons</summary>
+                <description>Download and install addons from the Kodi Youtube group. This plugin is not official from Google.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -772,6 +865,29 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 	Quick maintenance tool for your device.
 	Modifed code from Raw Maintenance add-on, and removed Google Analytics - I take no credit for original code.
 	</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="script.LimpiadorKodiMiTv"
+       name="[COLOR gold]Limpiador Cache MiTv[/COLOR]"
+       version="0.0.2"
+       provider-name="MiTv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+ 	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Limpiar</summary>
+    <description>Limpia la cache de Kodi.</description>
     <language></language>
     <license></license>
     <source></source>

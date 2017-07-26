@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mitvspain" name="MiTv Repository" version="1.0.1" provider-name="Marce - MiTv">
+	<extension point="xbmc.addon.repository" name="MiTv Repository">
+		<info compressed="false">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/repo/</datadir>
+	
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizaciones Kodi addons</summary>
+		<description>Repositorio con todo lo necesario para instalar sin problemas Marce - MiTv</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
