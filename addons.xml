@@ -69,6 +69,35 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.bennu" name="Bennu" version="17.8.5" provider-name="Bennu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bennu</summary>
+		<description lang="en">We Rise From The Ashes</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>release</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.castaway" name="Castaway" version="0.2.8" provider-name="natko1412">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -112,24 +141,6 @@
     <website></website>
     <email></email>
     <source></source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.deportesalacarta"
-    name="Deportesalacarta"
-    version="1.01"
-    provider-name="deportesalacarta">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.libtorrent" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <source>https://github.com/CmosGit/Mod_pelisalacarta_deportes</source>
   </extension>
 </addon>
 
@@ -201,6 +212,54 @@ Steps to be done before using the Teleboy section:
 f4m Proxy part is fork of f4mProxy by Shani
 Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.laliga" name="La Liga" version="0.0.201" provider-name="Topo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.liveresolver"  />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liga Española: La mejor liga del mundo</summary>
+		<description lang="en">Liga Española, Premier, Champions and much more</description>
+		<description lang="es">Liga Española, Premier, Champions y mucho más</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<disclaimer lang="es">El autor no almacena ni distribuye ninguno de los contenidos que se muestran en este addon. El autor no tiene ninguna afiliación con el proveedor de contenidos.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.LFP"
+       name="LFP"
+       version="0.0.2"
+       provider-name="LFP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por LFP</summary>
+    <description>LFP 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
