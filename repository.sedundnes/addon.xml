@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.sedundnes" name="seduNdneS Repo" version="0.0.1" provider-name="seduNdneS">
+	<extension point="xbmc.addon.repository" name="Fire TV Guru Repo">
+		<info compressed="false">http://ftg.srve.io/repo/addons.xml</info>
+		<checksum>http://ftg.srve.io/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://ftg.srve.io/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>seduNdneS Repo</summary>
+		<description>My Repository has got Electrolytes because its got what plants crave pfffft duh!!!</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
