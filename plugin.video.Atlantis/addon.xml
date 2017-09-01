@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Atlantis"
-       name="Atlantis"
-       version="0.0.4"
+       name="[COLOR gold]Atlantis[/COLOR]"
+       version="0.0.6"
        provider-name="NETAI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

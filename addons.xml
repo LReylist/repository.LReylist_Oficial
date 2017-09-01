@@ -17,10 +17,30 @@
     </extension>
 </addon>
 
+<addon id="plugin.program.indigo" version="3.0.2" name="Indigo" author="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable </provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Indigo is your gateway to the world of unofficial Kodi addons!</summary>
+        <description lang="en">Indigo is your gateway to the world of unofficial Kodi addons! Please visit www.tvaddons.co for support.</description>
+        <disclaimer lang="en">Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+        <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
+    </extension>
+</addon>
+
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
-       version="2.5.1"
-       provider-name="Doc Shadrach">
+       version="2.8.1"
+       provider-name="Adryan">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -28,25 +48,30 @@
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />
-	<import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+
+
   <extension point="xbmc.addon.metadata">
-    <summary>based on livestreamspro 2.3.4 by Shani</summary>
-    <description>Lista de canales de Adryan.</description>
+    <summary>AdryanList  - Television - Peliculas - Series</summary>
+    <description>Adryanlist
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon id="plugin.video.ArenaSports"
        name="Arena Sports"
-       version="1.0.0"
+       version="1.0.2"
        provider-name="Netai">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -69,7 +94,7 @@
 
 
   <extension point="xbmc.addon.metadata">
-    <summary>Futbol</summary>
+    <summary>video</summary>
     <description>
 [COLOR green]
 Ve todos los eventos deportivos emitidos por Arenavision.
@@ -109,8 +134,8 @@ Ve todos los eventos deportivos emitidos por Arenavision.
 </addon>
 
 <addon id="plugin.video.Atlantis"
-       name="Atlantis"
-       version="0.0.4"
+       name="[COLOR gold]Atlantis[/COLOR]"
+       version="0.0.6"
        provider-name="NETAI">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -239,6 +264,29 @@ Ve todos los eventos deportivos emitidos por Arenavision.
   </extension>
 </addon>
 
+<addon id="plugin.video.Explora"
+       name="Explora"
+       version="1.1.6"
+       provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester"/>
+	<import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="main.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Documentales</summary>
+    <language>es</language>
+    <description lang="es">Todos los documentales en castellano, la videoteca que no deja de crecer ! ... Este addon requiere de plugin f4mTester de shani para funcionar.</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -328,6 +376,51 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   <extension point="xbmc.addon.metadata">
     <summary>Creado por LFP</summary>
     <description>LFP 2017</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.live.streamspro"
+       name="LiveStreamsPro"
+       version="2.8.1"
+       provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
+    <description>
+        In addition to what livestreams allowed you to do, you can now,
+        1. call regex in regex,
+        2. multiple regex in page, regex in session, also htmlunescape responses
+        3. create session from one regex and pass onto next in line
+        4. save sessions to a file and open again later
+        5. write python code in .py file, put in the profile directory and then call from your regex.
+        6. use epoctime, guid and unpack as functions already defined.
+        7. Use it to post values to the pages to get the proper responses
+        8. support many headers, like origin, X-Requested-With
+        9. you can now append cookies in response and then read in regex using includeheaders
+        10. You can now link to another web url via your xml using externallink
+        11. support for google captcha, now you can show and then post the text
+
+    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -793,6 +886,22 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+    <addon id="repository.adryan" name="ADRYAN Repositorio" version="2.0.0" provider-name="adryan">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Adryan Repositorio Oficial">
+            <info compressed="false">http://adryanlist.org/addon/addons.xml</info>
+            <checksum>http://adryanlist.org/addon/addons.xml.md5</checksum>
+            <datadir zip="true">http://adryanlist.org/addon/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositorio para AdryanList </summary>
+            <description>Repositorio que pertenece a AdryanList.</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.1" provider-name="Vashiel">
