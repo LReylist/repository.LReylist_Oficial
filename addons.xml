@@ -17,26 +17,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.indigo" version="3.0.2" name="Indigo" author="tvaddons">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable </provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Indigo is your gateway to the world of unofficial Kodi addons!</summary>
-        <description lang="en">Indigo is your gateway to the world of unofficial Kodi addons! Please visit www.tvaddons.co for support.</description>
-        <disclaimer lang="en">Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation. Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.</disclaimer>
-        <language>en</language>
-        <platform>all</platform>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-        <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
-    </extension>
-</addon>
-
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
        version="2.8.1"
@@ -69,7 +49,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="4.5.0~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="4.5.1~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -333,34 +313,6 @@ Ve todos los eventos deportivos emitidos por Arenavision.
         <description></description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="plugin.video.kodilivetv" name="Kodi Live TV" version="2.1.3" provider-name="Vania Rupeni">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="xbmc.addon" version="13.0.0" />
-    <import addon="script.module.requests" version="2.9.1" />
-    <import addon="script.module.simplejson" version="3.3.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Live TV - downloaded for free from: http://kodilive.eu</summary>
-    <description lang="en">Kodi Live TV - downloaded for free from:
-http://kodilive.eu
-Plugin to watch IPTV free worldwide
-Steps to be done before using the Teleboy section:
---------------------------------------------------------------------------------
-* open "http://www.teleboy.ch" in your browser
-* sign up (free) and login and create your preferred channel list
-* enter your login and password in the addon settings and enjoy live television!
---------------------------------------------------------------------------------
-f4m Proxy part is fork of f4mProxy by Shani
-Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
-    </description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.laliga" name="La Liga" version="0.0.201" provider-name="Topo">
@@ -660,30 +612,6 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 		<screenshot>art/shot4.png</screenshot>
 	  </assets>
 	<platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.pelisalacarta-ui" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR][COLOR gold]UI[/COLOR]" version="4.3.03~beta1" provider-name="tvalacarta">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.libtorrent" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" >
-    <provides>executable video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Addon Modificado por LReylist, Version no oficial.</summary>
-    <description lang="es">Addon Modificado por LReylist. Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
-    <summary lang="en">Movies and TV Shows on demand</summary>
-    <description lang="en">Movies, Series, Documentaries, Anime, ... Everything is on the net, and now on your media center.</description>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>http://www.mimediacenter.info/foro</forum>
-    <website>http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta</website>
-    <email>tvalacarta@gmail.com</email>
-    <source>https://github.com/tvalacarta/pelisalacarta</source>
-  </extension>
-  <extension point="xbmc.service" library="library_service.py" start="login|startup">
   </extension>
 </addon>
 
@@ -1179,29 +1107,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	Quick maintenance tool for your device.
 	Modifed code from Raw Maintenance add-on, and removed Google Analytics - I take no credit for original code.
 	</description>
-    <language></language>
-    <license></license>
-    <source></source>
-    <forum></forum>
-    <website></website>
-  </extension>
-</addon>
-
-<addon id="script.LimpiadorKodiMiTv"
-       name="[COLOR gold]Limpiador Cache MiTv[/COLOR]"
-       version="0.0.2"
-       provider-name="MiTv">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
- 	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-	</extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Limpiar</summary>
-    <description>Limpia la cache de Kodi.</description>
     <language></language>
     <license></license>
     <source></source>
