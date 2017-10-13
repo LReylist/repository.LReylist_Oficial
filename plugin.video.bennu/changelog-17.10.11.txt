@@ -1,0 +1,2 @@
+[B]17.8.18[/B]
+Fixed URL Resolver in settings. 
