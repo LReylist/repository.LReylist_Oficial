@@ -183,7 +183,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.cine" name="Cine" version="1.0.14" provider-name="Topo">
+<addon id="plugin.video.cine" name="Cine" version="1.0.45" provider-name="Topo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -192,7 +192,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Cine</summary>
-    <description>Cine</description>
+    <description>Addon de Cine</description>
     <disclaimer></disclaimer>
     <language></language>
     <platform>all</platform>
