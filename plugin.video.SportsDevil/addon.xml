@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.10.01"
+  version="2017.11.01"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -21,13 +21,11 @@
   </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites</summary>
-    <description>Play videos of different ad-financed sports streaming sites.
-    
-SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
-    
-For updates check the readme.
-    </description>
+    <summary lang="en">SportsDevil addon</summary>
+    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
+    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description> 
+    <disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
+    <disclaimer lang="he">SportsDevil אינו מספק שום הזרמה; איכות הזרם, התוכן וזכויות היוצרים הם באחריות אתר האינטרנט הממומן על ידי המודעה. לעדכונים בדוק את קובץ readme</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
