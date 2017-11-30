@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon
-  id="plugin.video.SportsDevil"
-  version="2017.11.01"
-  name="SportsDevil"
-  provider-name="SportsDevil">
+<addon id="plugin.video.SportsDevil" version="2017.11.30" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
@@ -11,12 +7,8 @@
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!-- <import addon="script.video.F4mProxy" /> -->
-   <!-- <import addon="plugin.video.f4mTester" /> -->
   </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
    <provides>video</provides>
   </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
