@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Netai_github" name="[COLOR lime]Netai Github[/COLOR] Repo" version="1.0.8" provider-name="Netai">
+    <extension point="xbmc.addon.repository" name="Netai Github">
+        <info>https://raw.githubusercontent.com/Andorth/Repor/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Andorth/Repor/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Andorth/Repor/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Netai Repositorio Fuente Github</summary>
+        <description>Repositorio necesario para funcionar correctamente los Addons del grupo Netai.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
