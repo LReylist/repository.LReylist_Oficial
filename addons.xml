@@ -500,7 +500,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.placenta" version="1.0.6" name="Placenta" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="4.0.6" name="Placenta" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
