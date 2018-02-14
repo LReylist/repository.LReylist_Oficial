@@ -691,7 +691,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]"  version="4.0.7" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]"  version="4.1.0" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -708,7 +708,7 @@
     <forum>http://www.mimediacenter.info/foro</forum>
     <website>http://blog.tvalacarta.info/plugin-xbmc/tvalacarta</website>
     <email>tvalacarta@gmail.com</email>
-    <source>https://github.com/tvalacarta/tvalacarta</source>
+    <source></source>
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
