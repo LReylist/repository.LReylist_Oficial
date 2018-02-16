@@ -17,39 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.adryanlist"
-       name="AdryanList"
-       version="2.8.1"
-       provider-name="Adryan">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>AdryanList  - Television - Peliculas - Series</summary>
-    <description>Adryanlist
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="4.6.9~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="4.7.0~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -799,22 +767,6 @@
    	<disclaimer lang="es">El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida. Cuando requiera ayuda en el foro de Kodi por favor respete las reglas (http://kodi.wiki/view/Forum_rules).</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-    <addon id="repository.adryan" name="ADRYAN Repositorio" version="2.0.0" provider-name="adryan">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Adryan Repositorio Oficial">
-            <info compressed="false">http://adryanlist.org/addon/addons.xml</info>
-            <checksum>http://adryanlist.org/addon/addons.xml.md5</checksum>
-            <datadir zip="true">http://adryanlist.org/addon/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repositorio para AdryanList </summary>
-            <description>Repositorio que pertenece a AdryanList.</description>
-            <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="repository.adulthideout" name="AdultHideout REPO" version="1.0.1" provider-name="Vashiel">
