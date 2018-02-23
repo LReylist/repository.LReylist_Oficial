@@ -205,6 +205,25 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.IPTVLReylist" name="[COLOR gold]IPTV [I]LReylist[/I][/COLOR]" version="2.5.0" provider-name="LReylist">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+      <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <website></website>
+    <description lang="en">Addon Creado por LReylist</description>
+    <forum></forum>
+    <email>lreylist@gmail.com</email>
+    <disclaimer lang="es"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.LFP"
        name="LFP"
        version="0.0.2"
