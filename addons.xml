@@ -95,7 +95,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.cine" name="Cine" version="1.0.45" provider-name="Topo">
+<addon id="plugin.video.cine" name="Cine" version="1.0.61" provider-name="Topo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -455,9 +455,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.23" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.41" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.extendedinfo" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="orthanc.py">
     <provides>video</provides>
@@ -469,10 +472,22 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
+    <news>[COLOR lime][B] versión 0.0.41 [/B][/COLOR]
+        - Cambiada la opcion de descarga en pelis al menu donde estan las diferentes calidades
+        - Posibilidad de añadir una saga al menu principal
+        - Opcion de abrir los ajustes dentro de herramientas
+        - Paginacion en Pelis por generos
+        - [Interno] Corregida funcionalidad de marcar como visto tambien para los grupos de peliculas
+        - [Interno] Corregida la visualizacion de sagas
+    </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
-    <disclaimer></disclaimer>
+    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
     <language></language>
     <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
     <license></license>
     <forum></forum>
     <website></website>
@@ -1487,7 +1502,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.709.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="18.320.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
@@ -1500,6 +1515,8 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
         <platform>all</platform>
         <summary lang="en">Module providing access to youtube-dl video stream extraction</summary>
         <description lang="en">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <summary lang="es">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video</summary>
+        <description lang="en">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video de cientos de sitios. La versión está basada en la versión de fecha youtube-dl: YY.MDD.V donde V es la subversión específica del complemento. También permite descargas con la opción de descarga en segundo plano con una cola y un administrador de colas.</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forum.xbmc.org/showthread.php?tid=200877</forum>
         <source>http://github.com/ruuk/script.module.youtube.dl</source>
