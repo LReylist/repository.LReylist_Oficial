@@ -1,3 +1,28 @@
+[B]v3.0.5 (02 de Agosto de 2017):[/B]
+- Remo√ßao do CopiaPop, visto terem cessado o servi√ßo.
+
+[B]v3.0.4 (06 de Junho de 2017):[/B]
+- Correc√ß√£o do Login para Kodi 17+
+
+[B]v3.0.3 (15 de Mar√ßo de 2017):[/B]
+- Actualiza√ß√£o XML
+- Fix changelog
+
+[B]v3.0.2 (15 de Mar√ßo de 2017):[/B]
+- Adi√ß√£o do formato de legendas sub
+
+[B]v3.0.1 (14 de Mar√ßo de 2017):[/B]
+- Permite ocultar legendas e imagens
+
+[B]v3.0.0 (08 de Mar√ßo de 2017):[/B]
+- Refactor para CopiaDB
+- Correc√ß√£o das colec√ß√µes mais recentes
+- Adicionado DiskoKosmiko (M√©xico)
+- Adicionado KumpulBagi (Indon√©sia)
+
+[B]v2.0.3 (28 de Dezembro de 2016):[/B]
+- Login passa a ser obrigatorio no site.
+
 [B]v2.0.2 (22 de Abril de 2016):[/B]
 - Novo logo (tks sheikr)
 - Pastas adicionadas.
@@ -34,28 +59,28 @@ O copiapop e um site de alojamento publico estilo abelhas. O addon esta a ser re
 abelhas improvement: better usage of portuguese chars
 
 [B]v1.1.0-beta003 (15 de Junho de 2015):[/B]
-- OpÁ„o de resumir.
+- Op√ß√£o de resumir.
 
 [B]v1.1.0-beta002 (15 de Junho de 2015):[/B]
-- Pesquisa apresenta resultados ˙nicos na combinaÁ„o de nome+tamanho.
+- Pesquisa apresenta resultados √∫nicos na combina√ß√£o de nome+tamanho.
 
 [B]v1.1.0-beta001 (14 de Junho de 2015):[/B]
 - Melhoria quando addon chamado de fora:
-- Se opÁ„o Pasta no addon abre logo o video (com melhor qualidade dependendo das opÁıes);
-- Se opÁ„o Dialogo d· opÁ„o de escolher a qualidade.
+- Se op√ß√£o Pasta no addon abre logo o video (com melhor qualidade dependendo das op√ß√µes);
+- Se op√ß√£o Dialogo d√° op√ß√£o de escolher a qualidade.
 
 [B]v1.1.0 (14 de Junho de 2015):[/B]
 Actualizacao por Mafarricos!
 - Thumbnails do abelhas para filmes e fotos;
-- CÛdigo refeito;
+- C√≥digo refeito;
 - Toutbox, lolabits e minhateca adicionados;
-- AdiÁ„o ‡ biblioteca;
+- Adi√ß√£o √† biblioteca;
 - Trailer actualizado com a nova api do youtube;
 - Criar playlist refeita;
-- Play de fora refeito (integraÁ„o mais simples);
-- OpÁıes de pesquisar ordenando por tamanho;
-- Pesquisa com valor minimo e m·ximo de MB;
-- OpÁıes de ordenar o conteudo das pastas como no abelhas.
+- Play de fora refeito (integra√ß√£o mais simples);
+- Op√ß√µes de pesquisar ordenando por tamanho;
+- Pesquisa com valor minimo e m√°ximo de MB;
+- Op√ß√µes de ordenar o conteudo das pastas como no abelhas.
 
 [B]v1.0.1 (5 de Abril de 2015):[/B]
 Addon em actualizacao.
@@ -87,8 +112,8 @@ Addon em actualizacao.
 [B]v0.0.13 (28 de Outubro de 2014):[/B]
 - Adicionado sistema automatico para pesquisa de legendas (ty mafarricos).
 - Corrigido legendas na mesma pasta. (ty mafarricos)
-- Adicionada opÁ„o para trailers (ty mafarricos).
-- Outras correcÁıes.
+- Adicionada op√ß√£o para trailers (ty mafarricos).
+- Outras correc√ß√µes.
 
 [B]v0.0.12 (26 de Agosto de 2014):[/B]
 - Fix no espaco ocupado por cada utilizador.
