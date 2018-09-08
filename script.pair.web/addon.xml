@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pair.web" name="Pair Web" version="1.1" provider-name="Netai">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="pair.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="es">Pair your Stream Server</summary>
+    <description lang="es">Autoriza a tu media center a  cualquier servidor de la lista incluida.</description>
+	<disclaimer>Grupo Netai</disclaimer>
+  </extension>
+</addon>
