@@ -17,6 +17,60 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.18"
+       name="[COLOR pink]Solo Adultos + 18[/COLOR]"
+	   version="5.5.5"
+	   provider-name="Maniac">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.69"
+       name="[COLOR none]69 xxx[/COLOR]"
+       version="1.0.69"
+       provider-name="69">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" />
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>69</summary>
+    <description>contenido adulto, no permitido el acceso a menores
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.0.1~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -93,6 +147,22 @@
 		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
 	</extension>
+</addon>
+
+<addon id="plugin.video.ayayay" name="[COLOR red][B]AyAyAy!![/B][/COLOR]" version="0.0.1" provider-name="Bad-Max">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests"/>
+   <import addon="program.plexus"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Parser de la sección Porno de la web rusa http://tuchkatv.ru</summary>
+    <description>[COLOR red]Solo Mayores de 18 años!!!`[/COLOR] Parser de la sección Porno de la web rusa http://tuchkatv.ru con los mejores Canales en Vivo (Necesario para su funcionamiento, Plexus y Acestream).</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.cine" name="Cine" version="1.0.61" provider-name="Topo">
@@ -266,6 +336,27 @@
         <description></description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.fantasticc" name="Fantasti.cc" version="2018.02.05" provider-name="xbmc-adult">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.pil"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Fantasti.cc -  Browse videos from a site that aggregates the best porn videos online using the votes of users as the deciding factor</summary>
+        <description lang="en">Browse collections (user designed categories) as well as the most popular videos today/week/month as decided by the users of the site</description>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+		</extension>
 </addon>
 
 <addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR gold][I]LReylist-Gold[/I][/COLOR]" version="4.0.1" provider-name="LReylist">
@@ -456,6 +547,24 @@
   <extension point="xbmc.addon.metadata">
     <summary>Creado por LRey</summary>
     <description>LReylist 2017, no se autoriza la distribucion de este addon. La version familiar no contiene material para adultos ni la zona de pruebas</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.lubetube"
+       name="Lubetube (Adult)"
+       version="1.17"
+       provider-name="xbmc-adult">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
+    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -668,6 +777,21 @@
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.pornhub" version="1.0.4" name="Porn Hub" provider-name="Blazetamer">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.urlresolver"	version="1.1.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary> A large, organized database of Adult Videos.</summary>
+<description> **ADULTS OVER 18 ONLY*** By installing this addon you agree that you are over the age of 18 and consent to recieving adult oriented material***Based on the Popular Adult Website PornHub.com</description>
+<platform>all</platform>
+</extension>
 </addon>
 
 <addon id="plugin.video.pulsar" name="Pulsar" version="0.6.1" provider-name="steeve">
@@ -943,6 +1067,27 @@
     <description lang="en">Modificacion By Lreylist</description>
     <disclaimer lang="en">Video-Club </disclaimer>
 	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.videodevil"
+  version="1.7.184"
+  name="VideoDevil"
+  provider-name="xbmc-adult">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos from different adult streaming sites</summary>
+    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
+    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1227,6 +1372,20 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Wiiego's Addons</summary>
 		<description>Download and install multimedia addons by Wiiego</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xbmcadult" name="XBMC-Adult Addons" version="1.0.6" provider-name="xbmc-adult">
+	<extension point="xbmc.addon.repository" name="XBMC Adult Addons">
+		<info compressed="false">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml</info>
+		<checksum>http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/xbmc-adult/xbmc-adult/ghmaster</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XBMC Addons for Adults Only</summary>
+		<description>This repository contains addons that are for adults only. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
