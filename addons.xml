@@ -149,23 +149,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.ayayay" name="[COLOR red][B]AyAyAy!![/B][/COLOR]" version="0.0.1" provider-name="Bad-Max">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.module.requests"/>
-   <import addon="program.plexus"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Parser de la sección Porno de la web rusa http://tuchkatv.ru</summary>
-    <description>[COLOR red]Solo Mayores de 18 años!!!`[/COLOR] Parser de la sección Porno de la web rusa http://tuchkatv.ru con los mejores Canales en Vivo (Necesario para su funcionamiento, Plexus y Acestream).</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.cine" name="Cine" version="1.0.61" provider-name="Topo">
+<addon id="plugin.video.cine" name="Cine" version="1.0.67" provider-name="Topo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -625,7 +609,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.41" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.47" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -642,13 +626,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.41 [/B][/COLOR]
-        - Cambiada la opcion de descarga en pelis al menu donde estan las diferentes calidades
-        - Posibilidad de añadir una saga al menu principal
-        - Opcion de abrir los ajustes dentro de herramientas
-        - Paginacion en Pelis por generos
-        - [Interno] Corregida funcionalidad de marcar como visto tambien para los grupos de peliculas
-        - [Interno] Corregida la visualizacion de sagas
+    <news>[COLOR lime][B] versión 0.0.47 [/B][/COLOR]
+        - [Interno] Corregido StreamCloud para usar URLResolver
+        - [Interno] Corregido validación de tamaño maximo de descargas
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
@@ -777,21 +757,6 @@
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.pornhub" version="1.0.4" name="Porn Hub" provider-name="Blazetamer">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.urlresolver"	version="1.1.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary> A large, organized database of Adult Videos.</summary>
-<description> **ADULTS OVER 18 ONLY*** By installing this addon you agree that you are over the age of 18 and consent to recieving adult oriented material***Based on the Popular Adult Website PornHub.com</description>
-<platform>all</platform>
-</extension>
 </addon>
 
 <addon id="plugin.video.pulsar" name="Pulsar" version="0.6.1" provider-name="steeve">
@@ -1018,7 +983,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.1.0"  provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="[COLOR lime]tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]" version="4.1.1"  provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -1067,27 +1032,6 @@
     <description lang="en">Modificacion By Lreylist</description>
     <disclaimer lang="en">Video-Club </disclaimer>
 	<platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.videodevil"
-  version="1.7.184"
-  name="VideoDevil"
-  provider-name="xbmc-adult">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1612,24 +1556,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id='script.module.libtorrent' version='1.1.1c' name='python-libtorrent' provider-name='DiMartino, srg70, RussakHH, aisman, inpos'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.python.module" library="python_libtorrent"/>
-  <extension point='xbmc.addon.metadata'>
-    <platform>all</platform>
-    <summary lang='en'>script.module.libtorrent is a Kodi module that makes easy import of python-libtorrent for you.</summary>
-    <summary lang='ru'>script.module.libtorrent - модуль Kodi, который упрощает импорт библиотеки python-libtorrent.</summary>
-    <license>MIT License</license>
-    <source>https://github.com/DiMartinoXBMC/script.module.libtorrent</source>
-  </extension>
-  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id='script.module.libtorrent' version='1.1.1g' name='python-libtorrent' provider-name='DiMartino, srg70, RussakHH, aisman, inpos'>
