@@ -1579,7 +1579,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.module.liveresolver"
      name="LiveResolver"
-     version="0.1.49"
+     version="0.1.50"
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1893,7 +1893,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.08a" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.15" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -1911,11 +1911,6 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
 	</extension>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-</dir>
 </addon>
 
 <addon id="script.module.schism.common" name="Elysium Common Libraries" version="2017.06.08" provider-name="Elysium">
@@ -2105,7 +2100,29 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.10" provider-name="tvaddons">
+<addon id="script.module.urllib3"
+       name="urllib3"
+       version="1.22"
+       provider-name="shazow">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">urllib3 is a powerful, sanity-friendly HTTP client for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/shazow/urllib3</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.urllib3</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.22" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
