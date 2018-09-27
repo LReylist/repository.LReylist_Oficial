@@ -71,7 +71,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.0.2~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.0.3~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -251,21 +251,6 @@
     <description lang="en">ColombiaTV is the best addon to watch the main TV Channels and shows from Colombia</description>
     <description lang="es">ColombiaTV es el mejor addon para ver los principales canales y programas de Televisión de Colombia</description>
   </extension>
-</addon>
-
-<addon id="plugin.video.copiadb" name="[COLOR red]Buscador[/COLOR]" version="4.5" provider-name="LReylist">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.6.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Coontenidos de DiskoKosmiko en Kodi</summary>
-        <description>Todos los contenidos de la comunidad DiskoKosmiko en Kodi.</description>
-        <platform>all</platform>
-    </extension>
 </addon>
 
 <addon id="plugin.video.elementum" name="Elementum" version="0.0.61" provider-name="elgatito">
@@ -893,36 +878,6 @@
   <news>
    Pierwsza wersja :)
   </news>
-  </extension>
-</addon>
-
-<addon
-  id="plugin.video.SportsDevil"
-  version="30003-Mod"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.streamlink.base" />
-   <import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service/streamlink_proxy.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportsDevil addon</summary>
-    <description lang="en">Versión de Jairox con algún Catcher modificado/añadido por Goldonx y Bad-Max... Play videos of different ad-financed sports streaming sites.</description>
-    <disclaimer lang="en">Versión de Jairox con algún Catcher modificado/añadido por Goldonx y Bad-Max... SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
   </extension>
 </addon>
 
