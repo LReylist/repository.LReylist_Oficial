@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.0.9~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.1.0~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -927,6 +927,26 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
+</addon>
+
+<addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="0.0.1"
+       provider-name="kodirepo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Gay ShowBox</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Gay ShowBox</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    </extension>
 </addon>
 
 <addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.5" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
