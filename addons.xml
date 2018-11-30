@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.1.0~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.1.1~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -457,24 +457,6 @@
   <extension point="xbmc.addon.metadata">
     <summary>Creado por LRey</summary>
     <description>LReylist 2017, no se autoriza la distribucion de este addon. La version familiar no contiene material para adultos ni la zona de pruebas</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.lubetube"
-       name="Lubetube (Adult)"
-       version="1.17"
-       provider-name="xbmc-adult">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</summary>
-    <description>Thousands of Free Streaming Porn videos! Updated every day. Lube Tube is the youtube of free porn.</description>
     <platform>all</platform>
   </extension>
 </addon>
