@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.1.4~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.1.5~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -888,7 +888,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.1.5" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]" version="4.1.6" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
