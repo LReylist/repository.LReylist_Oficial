@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.2.3~alfa" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR skyblue]Pelis[/COLOR][COLOR white]ala[/COLOR][COLOR skyblue]carta[/COLOR]" version="5.2.4~alfa" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -1166,21 +1166,6 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>LReylist, official Repo</summary>
    		<description lang="en">No se autoriza la distribucion de este respositorio</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.mitvspain" name="MiTv Repository" version="1.0.1" provider-name="Marce - MiTv">
-	<extension point="xbmc.addon.repository" name="MiTv Repository">
-		<info compressed="false">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/repo/</datadir>
-
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Actualizaciones Kodi addons</summary>
-		<description>Repositorio con todo lo necesario para instalar sin problemas Marce - MiTv</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
