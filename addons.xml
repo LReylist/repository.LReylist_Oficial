@@ -64,57 +64,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.arenavisionezy"	name="ArenaVision EZY (MOD)" version="5.3.9" provider-name="Wazzu (MOD by Teco)">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="program.plexus" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>ArenaVision EZY</summary>
-		<description>Esto no es un proyecyo paralelo, simplemente es una modificacion para Kodi 16</description>
-		<platform>all</platform>
-		<license/>
-		<forum/>
-		<website/>
-		<email>egrueda@gmail.com</email>
-		<source/>
-	</extension>
-	<extension point="xbmc.addon.repository" name="ArenaVision EZY">
-		<info compressed="false">https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
-	</extension>
-</addon>
-
-<addon id="plugin.video.avezy" name="AvEZY" version="1.4.1" provider-name="Wazzu">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="program.plexus" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AvEZY</summary>
-		<description>Interfaz para ArenaVision desarrollado por Wazzu</description>
-		<platform>all</platform>
-		<license/>
-		<forum/>
-		<website/>
-		<email>egrueda@gmail.com</email>
-		<disclaimer>El autor no aloja ni distribuye cualquier contenido que ud. pudiera reproducir usando este addon. El autor no tiene participacion en el desarrollo de cualquier tecnologia incluida.</disclaimer>
-		<source/>
-	</extension>
-	<extension point="xbmc.addon.repository" name="AvEZY">
-		<info compressed="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
-	</extension>
-</addon>
-
 <addon id="plugin.video.balandro" name="Balandro" version="2.5.0" provider-name="VOD">
 
   <requires>
@@ -144,27 +93,6 @@
 
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
 
-</addon>
-
-<addon id="plugin.video.cine" name="Cine" version="1.0.72" provider-name="Topo">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Cine</summary>
-    <description>Addon de Cine</description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
 </addon>
 
 <addon id="plugin.video.Cinemania"
@@ -223,6 +151,46 @@
     <summary lang="en">ColombiaTV</summary>
     <description lang="en">ColombiaTV is the best addon to watch the main TV Channels and shows from Colombia</description>
     <description lang="es">ColombiaTV es el mejor addon para ver los principales canales y programas de Televisión de Colombia</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cristalazul"
+       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
+       version="0.0.4"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>creado por picapau, lourdes, supertopo y luisma</summary>
+    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
+	</description>
+    <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+	  </assets>
   </extension>
 </addon>
 
@@ -305,27 +273,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.fantasticc" name="Fantasti.cc" version="2018.02.05" provider-name="xbmc-adult">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.pil"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Fantasti.cc -  Browse videos from a site that aggregates the best porn videos online using the votes of users as the deciding factor</summary>
-        <description lang="en">Browse collections (user designed categories) as well as the most popular videos today/week/month as decided by the users of the site</description>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
-		</extension>
-</addon>
-
 <addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR gold][I]LReylist-Gold[/I][/COLOR]" version="4.0.2" provider-name="LReylist">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
@@ -379,36 +326,6 @@
     <forum></forum>
     <email>lreylist@gmail.com</email>
     <disclaimer lang="es"></disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.LFP"
-       name="LFP"
-       version="0.0.2"
-       provider-name="LFP">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por LFP</summary>
-    <description>LFP 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -518,60 +435,41 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.p2p-streams"
-       name="p2p-streams"
-       version="1.2.0b"
-       provider-name="enen92,fightnight">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.pytz" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.mechanize" version="0.2.6"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
+<addon id="plugin.video.mediaexplorer"
+       name="MediaExplorer"
+       version="1.1.2"
+       provider-name="MediaExplorer">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>SopCast and AceStream</summary>
-    <description lang="en">AceStream and Sopcast in your favourite media center! Watch peer-to-peer streams in Kodi without the need for external players. Project page: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <description lang="pt">AceStream e Sopcast no seu Media-Center de eleição! Assista a streams peer-to-peer no Kodi sem a necessidade de players externos. Página do projecto: https://github.com/enen92/P2P-Streams-Kodi</description>
-    <description lang="nl">Acestream en Sopcast in jouw favoriete media center. Kijk peer-to-peer streams in Kodi zonder de noodzaak voor externe spelers. Project pagina: https://github.com/enen92/P2P-Streams-Kodi/</description>
-    <description lang="it">AceStream e SopCast nel tuo Media Center preferito! Guarda i canali peer-to-peer in Kodi senza la necessità di player esterni. Pagina del progetto: https://github.com/enen92/P2P-Streams-Kodi/</description>
-    <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
-    <disclaimer lang="pt">Os autores não alojam nem distribuem nenhum do conteúdo acessível a partir deste addon. Os autores não têm qualquer afiliação com nenhum dos sites utilizados por este addon. O addon não contem nenhuma ferramenta de tracking.</disclaimer>
-    <disclaimer lang="nl">De auteurs houden of delen niets van de inhoud die u kunt bekijken met behulp van deze addon. De auteurs hebben geen banden met welke leverancier van inhoud dan ook. Deze addon houdt geen gegevens bij van zijn gebruikers.</disclaimer>
-    <disclaimer lang="it">L'autore non detiene o distribuisce alcun contenuto fruibile tramite l'utilizzo di questo addon. L'autore non è affiliato con nessun fornitore dei contenuti. Questo addon non traccia i suoi utenti.</disclaimer>
-    <forum>http://forum.kodi.tv/showthread.php?tid=201894</forum>
-    <source>https://github.com/enen92/P2P-Streams-Kodi | https://github.com/enen92/P2P-Streams-Kodi--Modules-</source>
-    <website>https://code.google.com/p/p2p-strm/</website>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.p2psport" name="P2P Sport" version="0.1.4" provider-name="natko1412,Extracsaba">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.mechanize" version="0.2.6"/>
-
-
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Watch p2p sports in Kodi</summary>
-
-    <platform>all</platform>
-    <forum>forums.tvaddons.ag</forum>
-
-  </extension>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Explorar webs con enlaces de películas y series.</summary>
+        <description lang="es">Disfrute de sus películas y series favoritas navegando de manera fácil, sencilla y segura desde su mediacenter.</description>
+        <disclaimer lang="es">
+            1.- El material disponible a través de MediaExplorer, ha sido recolectado de sitios webs que son públicos (hdfull.tv, plusdede.com, seriesblanco.com, etc...), organizados como canales. Por lo que este material es considerado de libre distribución y su uso indebido no será nunca responsabilidad de los creadores o colaboradores de MediaExplorer.
+            2.- Todos los vídeos que figuran en este addon son solo enlaces que han sido obtenidos de páginas como powvideo.net, openload.co, youtube.com, netu.tv, etc. Por lo tanto MediaExplorer solo se limita a facilitar la visibilidad de los vídeos a través de los enlaces de estos y otros servidores.
+            3.- MediaExplorer, no aloja vídeos ni distribuye ningún tipo de archivo para streaming o descarga. El único material que proporciona son enlaces de webs de libre distribución. Por consiguiente solo los canales y servidores son plenamente responsables de los contenidos que publiquen.
+            4.- Los canales y servidores podrían, en algún caso, publicar vídeos con contenido no apto. MediaExplorer cuenta con un apartado exclusivo para adultos (por defecto deshabilitado), pero no puede garantizar que todo el material de este tipo se filtre correctamente. Usted es responsable de proteger a los menores de esta exposición.
+            5.- Si este tipo de contenido esta prohibido en su país, solamente usted es responsable del uso de MediaExplorer.
+        </disclaimer>
+        <summary lang="en">Explore websites with links to movies and series.</summary>
+        <description lang="en">Enjoy your favorite movies and series by browsing easily and securely from your mediacenter.</description>
+        <disclaimer lang="en">
+            1.- The material available through MediaExplorer, has been collected from websites that are public (hdfull.tv, plusdede.com, seriesblanco.com, etc ...), organized as channels. So this material is considered free distribution and its misuse will never be the responsibility of the creators or collaborators of MediaExplorer.
+            2.- All the videos that appear in this addon are only links that have been obtained from pages like powvideo.net, openload.co, youtube.com, netu.tv, etc. Therefore MediaExplorer is limited to facilitating the visibility of videos through the links of these and other servers.
+            3.- MediaExplorer, does not host videos or distribute any type of file for streaming or downloading. The only material that it provides are free web links. Therefore only channels and servers are fully responsible for the content they publish.
+            4.- The channels and servers could, in some cases, publish videos with unsuitable content. MediaExplorer has an exclusive section for adults (by default disabled), but can not guarantee that all material of this type is filtered correctly. You are responsible for protecting minors from this exposure.
+            5.- If this type of content is prohibited in your country, only you are responsible for the use of MediaExplorer.
+        </disclaimer>
+        <platform>all</platform>
+        <license>GNU GPL v3</license>
+        <website>http://www.mediaexplorer.tk</website>
+        <source>...</source>
+    </extension>
+    <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
 <addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.51" provider-name="TierraMedia">
@@ -650,23 +548,6 @@
 		<screenshot>art/shot4.png</screenshot>
 	  </assets>
 	<platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.patch-Sportsdevil.Jairox"
-	   name="Sportsdevil Jairox"
-	   version="0.0.3"
-	   provider-name="Sportsdevil">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Sportsdevil patch mod3</summary>
-    <description>Modificacion del addon Sportsdevil a la revision de Jairox mod 3.</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
