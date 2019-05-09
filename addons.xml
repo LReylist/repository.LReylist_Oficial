@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Pelis[/COLOR][COLOR white]Ala[/COLOR][COLOR deepskyblue]Carta[/COLOR]" version="6.0.2" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Pelis[/COLOR][COLOR white]Ala[/COLOR][COLOR deepskyblue]Carta[/COLOR]" version="6.0.3" provider-name="LReylist">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
