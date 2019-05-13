@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Pelis[/COLOR][COLOR white]Ala[/COLOR][COLOR deepskyblue]Carta[/COLOR]" version="6.0.3" provider-name="LReylist">
+<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.0.4" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -17,7 +17,17 @@
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>     
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ mejortorrent              ¤ animeid               ¤ serieslan
+      ¤ jkanime                       ¤ adult +18             ¤ pelix
+      ¤ asialiveaction             ¤ cinetux                ¤ pelismundo
+      ¤ retroseriestv
+
+ 
+    </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
     <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
