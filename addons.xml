@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.1.4" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.1.5" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -111,33 +111,6 @@
     <summary>Creado Por Netai y Picapau.</summary>
     <description>Cinemania, todo el cine en tu mediacenter. Ha sido desarrollado por el grupo Netai y el soporte de Picapau.</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.colombiatv"
-       name="ColombiaTV"
-       version="1.5.5"
-       provider-name="Wiiego">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.1" />
-    <import addon="script.module.parsedom" version="2.5.1" />
-    <import addon="script.module.simple.downloader" version="0.9.4" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.urlresolver" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">ColombiaTV</summary>
-    <description lang="en">ColombiaTV is the best addon to watch the main TV Channels and shows from Colombia</description>
-    <description lang="es">ColombiaTV es el mejor addon para ver los principales canales y programas de Televisión de Colombia</description>
   </extension>
 </addon>
 
@@ -257,7 +230,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR gold][I]LReylist-Gold[/I][/COLOR]" version="4.0.2" provider-name="LReylist">
+<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR gold][I]LReylist-Gold[/I][/COLOR]" version="4.0.3" provider-name="LReylist">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	 <import addon="script.module.requests"/>
@@ -276,26 +249,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.IPTVLReylist-io" name="[COLOR orange]IPTV [/COLOR][COLOR purple][I]LReylist_España[/I][/COLOR]" version="4.1.0" provider-name="LReylist">
-  <requires>
-     <import addon="xbmc.python" version="2.1.0"/>
-	 <import addon="script.module.requests"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-      <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"></summary>
-    <website></website>
-    <description lang="en">Addon Creado por LReylist</description>
-    <forum></forum>
-    <email>lreylist@gmail.com</email>
-    <disclaimer lang="es"></disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.IPTVLReylist-Souf" name="[COLOR orange]IPTV [/COLOR][COLOR lightgreen][I]LReylist_Souf[/I][/COLOR]" version="4.0.0" provider-name="LReylist">
+<addon id="plugin.video.IPTVLReylist-io" name="[COLOR orange]IPTV [/COLOR][COLOR purple][I]LReylist_España[/I][/COLOR]" version="4.1.1" provider-name="LReylist">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	 <import addon="script.module.requests"/>
@@ -644,88 +598,6 @@
             <screenshot>resources/screenshots/webui.png</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="plugin.video.series"
-       name="[COLOR skyblue]Videoclub de Series[/COLOR]"
-       version="2.5.0"
-       provider-name="LReylist">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado por LReylist</summary>
-    <description>Video Club de Series 2017, no se autoriza la distribucion de este addon. </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.sport365.live" name="Sport365" version="1.0" provider-name="GalAnonim">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="service.cronxbmc" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="main.py">
-        <provides>video</provides>
-    </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Sport365</summary>
-    <description lang="en">Sport365</description>
-    <disclaimer lang="en">Wtyczka tworzona na użytek prywatny, autor nie odpowiada za jej nieodpowienie wykorzystywanie oraz rozpowszechnianie! Wszystkie treści multimedialne są własnością strony sport365.live! Kod pochodzi od RamicSPA</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.png</fanart>
-  </assets>
-  <news>
-   Pierwsza wersja :)
-  </news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.SportsDevil" version="2018.09.20" name="SportsDevil" provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="plugin.video.f4mTester" />
-   <import addon="script.module.slproxy" />
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">SportsDevil</summary>
-    <description lang="en">[I]There can only be one.[/I][CR][CR]Unofficial Kodi Addon.</description>
-    <disclaimer lang="en">There can only be one.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.sportweb" name="[COLOR coral]SportsWeb[/COLOR]" version="0.0.7" provider-name="Bad-Max">
