@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.1.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.1.9" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -80,38 +80,6 @@
 
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
 
-</addon>
-
-<addon id="plugin.video.Cinemania"
-       name="[COLOR yellow]Cinemania[/COLOR]"
-       version="1.3.1"
-       provider-name="Netai-Picapau">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-	<import addon="script.pair.web" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Creado Por Netai y Picapau.</summary>
-    <description>Cinemania, todo el cine en tu mediacenter. Ha sido desarrollado por el grupo Netai y el soporte de Picapau.</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.cristalazul" name="[COLOR aqua]CRISTAL AZUL[/COLOR]" version="0.0.4" provider-name="PICAPAU, LOURDES, SUPERTOPO">
@@ -230,7 +198,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR gold][I]LReylist-Gold[/I][/COLOR]" version="4.0.3" provider-name="LReylist">
+<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR skyblue][I]LReylist[/I][/COLOR]" version="4.0.4" provider-name="LReylist">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	 <import addon="script.module.requests"/>
@@ -410,11 +378,12 @@
     <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.51" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.68" provider-name="TierraMedia">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
-    <import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl" optional="true"/>
     <import addon="script.extendedinfo" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="orthanc.py">
@@ -427,11 +396,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.51 [/B][/COLOR]
-        - [Interno] Añadido YouTube en Herramientas
-        - [Interno] Cambiado notificaciones
-        - [Interno] Eliminadas opciones de registro.
-        - [Añadido] Pelis recientes por año en pantalla principal.
+    <news>[COLOR lime][B] versión 0.0.68 [/B][/COLOR]
+        - [Interno] Añadidos servidores nuevos.
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
@@ -1013,32 +979,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
                 <description>Download and install addons from the Kodi Youtube group. This plugin is not official from Google.</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.29" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="plugin.video.elementum" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.script" library="burst.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum torrents provider</summary>
-        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
-        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
-        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
-        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-	<disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
-        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
-        <website>https://elementum.surge.sh</website>
-        <source>https://github.com/elgatito/script.elementum.burst</source>
-        <forum>TODO</forum>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="0.0.17" provider-name="elgatito">
