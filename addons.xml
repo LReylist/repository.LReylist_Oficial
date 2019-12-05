@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.2.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="[COLOR deepskyblue]Alfa[/COLOR]" version="6.2.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -39,17 +39,7 @@
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-
-      [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ pepecine                            ¤ Dontorrent               ¤ Cinecalidad
-      ¤ Grantorrent                       ¤ pelisgratis                ¤ peliculonhd
-      ¤ Pelisplanet                         ¤ Cinedetodo              ¤ Watchseries
-      ¤ zoowoman                         ¤ ultrapelishd             ¤ peliculasudiolatino
-      ¤ Hdfull                                  ¤ shahid4u                  ¤ megadede
-      ¤ xdede                                  ¤ animeflv                   ¤ Seriespapaya
-      ¤ Cuevana3                           ¤ Seriesmetro             ¤ +18
-
-    </news>
+     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
     <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
@@ -295,10 +285,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.LReylist"
-       name="[COLOR deepskyblue]LReylist 2.0.2[/COLOR]"
-       version="2.0.2"
-       provider-name="LRey">
+<addon id="plugin.video.LReylist" name="[COLOR red][B]LReyflix[/B] [/COLOR]" version="3.0" provider-name="LRey">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -321,7 +308,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Creado por LRey</summary>
-    <description>LReylist 2017, no se autoriza la distribucion de este addon.</description>
+    <description>LReylist 2020, no se autoriza la distribucion de este addon. Este addon no contiene contenido propio, todo lo que se puede encontrar aqui esta en internet.</description>
     <platform>all</platform>
   </extension>
 </addon>

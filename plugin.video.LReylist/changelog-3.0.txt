@@ -1,0 +1,69 @@
+﻿Versión 
+Actualizado los conectores para mejorar y adaptarse a los nuevos regex.
+
+Versión 
+Mejorada toda la estructura del addon con nuevos scrips.
+
+Versión 
+Mejorada la seguridad del addon para evitar robos de listas
+
+Versión 
+Actualizado decodificadores imagenes de fondo actualizada y compatibilidad con appel tv4
+
+Versión 
+Actualización de codes.
+
+Versión 
+Añadido livestreams script addons
+Juegos de comandos
+Soporte para cifrado XML / M3U8
+
+Versión 
+proxy username/pwd , Gracias a jairox@tva
+
+Versión 
+Rectificación de AADecoder
+
+Versión 
+Mejorada las funciones básicas y recopilación de códigos para su visionado.
+
+Versión 
+Revision y modificacion del Addon
+
+Versión 
+Actualizacion de los fondos 
+
+Versión 
+Corrección de errores en listrepeat por artículos individuales. También ahora param0 está disponible, que será el número de fila.
+Desactivada la opcion parental por no funcionar bien en Android
+
+Versión 
+Arreglo fallo en la configuracion
+
+Versión 
+Actualizada la función desempacado de dividir la cadena ABC, así como empaquetado.
+Actualizado el fondo de pantalla.
+
+Versión
+Ignorar error en creacion de listas
+
+Versión 
+Varios ajustes
+
+Versión 5.2
+Añadido Control Parental
+
+Versión 5.0.1
+Basado en el liveStreamsPro 1.9.3 de Shani
+
+Versión 5.0
+Version estable
+
+Versión 4.0
+Mejeras en el rendimiento
+
+Versión 3.0
+Mejoras en la estabilidad. Cambio del fondo
+
+Versión 2.0
+Primera version del plugin LReylist. Todas las listas incluidas son propiedad de sus creadores,LReylist no se hace responsable de su contenido.
