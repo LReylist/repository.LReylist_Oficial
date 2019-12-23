@@ -798,7 +798,7 @@
 
 <addon id="repository.elementum" name="Elementum Repository" version="0.0.71" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
 
-<addon id="repository.LReylist_Oficial" name="LReylist, official Repo" version="1.0.0" provider-name="LRey">
+<addon id="repository.LReylist_Oficial" name="LReylist, official Repo" version="2.0.0" provider-name="LRey">
 	<extension point="xbmc.addon.repository" name="LReylist official Repo">
 		<info compressed="false">https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/LReylist/repository.LReylist_Oficial/master/addons.xml.md5</checksum>
