@@ -55,37 +55,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="2.5.0" provider-name="VOD">
-
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Balandro addon</summary>
-    <description lang="es">Balandro es un navegador para webs con vídeos de películas y series, derivado de pelisalacarta y alfa.</description>
-    <disclaimer lang="es">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>foro</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://github.com/...</source>
-  </extension>
-
-  <extension point="xbmc.service" library="services.py" start="login|startup"/>
-
-</addon>
-
 <addon id="plugin.video.cristalazul" name="[COLOR aqua]CRISTAL AZUL[/COLOR]" version="0.0.4" provider-name="PICAPAU, LOURDES, SUPERTOPO">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -201,7 +170,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR skyblue][I]LReylist[/I][/COLOR]" version="4.0.4" provider-name="LReylist">
+<addon id="plugin.video.IPTVLReylist" name="[COLOR orange]IPTV[/COLOR] [COLOR skyblue][I]LReylist[/I][/COLOR]" version="4.0.5" provider-name="LReylist">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	 <import addon="script.module.requests"/>
@@ -235,51 +204,6 @@
     <forum></forum>
     <email>lreylist@gmail.com</email>
     <disclaimer lang="es"></disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.live.streamspro"
-       name="LiveStreamsPro"
-       version="2.8.1"
-       provider-name="Shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
-    <description>
-        In addition to what livestreams allowed you to do, you can now,
-        1. call regex in regex,
-        2. multiple regex in page, regex in session, also htmlunescape responses
-        3. create session from one regex and pass onto next in line
-        4. save sessions to a file and open again later
-        5. write python code in .py file, put in the profile directory and then call from your regex.
-        6. use epoctime, guid and unpack as functions already defined.
-        7. Use it to post values to the pages to get the proper responses
-        8. support many headers, like origin, X-Requested-With
-        9. you can now append cookies in response and then read in regex using includeheaders
-        10. You can now link to another web url via your xml using externallink
-        11. support for google captcha, now you can show and then post the text
-
-    </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -452,38 +376,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.Planeta"
-       name="Planeta"
-       version="1.1.0"
-       provider-name="CatNer">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description>
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.plexus-streams"
        name="Plexus-Streams"
        version="1.0.17"
@@ -504,23 +396,6 @@
     <summary>Plexus wrapper</summary>
     <description lang="en">P2P-Streams fork that works as a Plexus wrapper</description>
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.sportweb" name="[COLOR coral]SportsWeb[/COLOR]" version="0.0.7" provider-name="Bad-Max">
-  <requires>
-   <import addon="xbmc.python" version="2.1.0"/>
-   <import addon="script.module.requests"/>
-   <import addon="plugin.video.SportsDevil"/>
-   <import addon="program.plexus"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables</summary>
-    <description>Plugin Para Intentar ver lo mejor del Deporte, mediante las Webs mas estables... necesario Plex+AceStream, F4MTester y SportsDevil (el de Jairox, sobre todo para los VerLiga.net... y desactivar la opción al SportsDevil la opción 'AutoActualizar'... Gracias También a Goldonx por su siempre desinteresada ayuda) para su correcto Funcionamiento.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -582,26 +457,6 @@
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
   </extension>
-</addon>
-
-<addon id="plugin.video.uwc"
-       name="Ultimate Whitecream"
-       version="0.0.1"
-       provider-name="kodirepo">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>GPL 2.0</license>
-        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Gay ShowBox</summary>
-        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Gay ShowBox</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    </extension>
 </addon>
 
 <addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.5" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
@@ -1780,18 +1635,6 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     <description lang="es">Autoriza a tu media center a  cualquier servidor de la lista incluida.</description>
 	<disclaimer>Grupo Netai</disclaimer>
   </extension>
-</addon>
-
-<addon id="script.placenta.artwork" version="1.0.3" name="Placenta Artwork" provider-name="Team Afterbirth">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Themes for the Placenta Addon</summary>
-		<description>You are welcome! - Team Afterbirth (mr blamo and Muad'Dib)</description>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="script.speedtestnet"
