@@ -55,6 +55,34 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.atresplayer" name="ATRESPLAYER" version="1.1.0" provider-name="Alex303 - Hiraya Software">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="plugin.video.f4mTester" />
+		<import addon="script.video.F4mProxy" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
+		<info>https://hirayasoftware.github.io/addons.xml</info>
+		<checksum>https://hirayasoftware.github.io/addons.xml.md5</checksum>
+		<datadir zip="true">https://hirayasoftware.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ATRESPLAYER</summary>
+		<description lang="en">ATRESPLAYER Addon</description>
+		<disclaimer lang="en">Addon con la programación de ATRESPLAYER a la carta.</disclaimer>
+		<summary lang="es">ATRESPLAYER</summary>
+		<description lang="es">ATRESPLAYER Addon</description>
+		<disclaimer lang="es">Addon con la programación de ATRESPLAYER a la carta.</disclaimer>
+		<platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+	</extension>
+</addon>
+
 <addon id="plugin.video.cristalazul" name="[COLOR aqua]CRISTAL AZUL[/COLOR]" version="0.0.4" provider-name="PICAPAU, LOURDES, SUPERTOPO">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -276,6 +304,32 @@
     <extension point="xbmc.service" library="services.py" start="login|startup"/>
 </addon>
 
+<addon id="plugin.video.mitele" name="MITELE" version="1.0.9" provider-name="Alex303 - Hiraya Software">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
+		<info>https://hirayasoftware.github.io/addons.xml</info>
+		<checksum>https://hirayasoftware.github.io/addons.xml.md5</checksum>
+		<datadir zip="true">https://hirayasoftware.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MITELE</summary>
+		<description lang="en">MITELE Addon</description>
+		<disclaimer lang="en">Addon con la programación de MITELE a la carta.</disclaimer>
+		<summary lang="es">MITELE</summary>
+		<description lang="es">MITELE Addon</description>
+		<disclaimer lang="es">Addon con la programación de MITELE a la carta.</disclaimer>
+		<platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+	</extension>
+</addon>
+
 <addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.68" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -375,6 +429,32 @@
     <disclaimer lang="en">The authors does not host nor distribute any of the content you may watch using this addon. The authors have no affiliation with any of the content providers. This addon does not track its users.</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.rtve" name="RTVE" version="1.1.1" provider-name="Alex303 - Hiraya Software">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
+		<info>https://hirayasoftware.github.io/addons.xml</info>
+		<checksum>https://hirayasoftware.github.io/addons.xml.md5</checksum>
+		<datadir zip="true">https://hirayasoftware.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">RTVE</summary>
+		<description lang="en">RTVE Addon</description>
+		<disclaimer lang="en">Addon con la programación de RTVE a la carta.</disclaimer>
+		<summary lang="es">RTVE</summary>
+		<description lang="es">RTVE Addon</description>
+		<disclaimer lang="es">Addon con la programación de RTVE a la carta.</disclaimer>
+		<platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+	</extension>
 </addon>
 
 <addon id="plugin.video.torrenter" name="Torrenter" version="2.6.6" provider-name="inpos">
@@ -629,6 +709,20 @@
 </addon>
 
 <addon id="repository.elementum" name="Elementum Repository" version="0.0.71" provider-name="elgatito"><requires></requires><extension point="xbmc.addon.repository" name="Elementum Repository"><info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info><checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum><datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir></extension><extension point="xbmc.addon.metadata"><platform>all</platform><summary lang="en">GitHub repository for Elementum updates</summary></extension></addon>
+
+<addon id="repository.hirayasoftware" name="Hiraya Software" version="1.0.1" provider-name="Alex303 - Hiraya Software">
+	<extension point="xbmc.addon.repository" name="Hiraya Software">
+		<info>https://hirayasoftware.github.io/addons.xml</info>
+		<checksum>https://hirayasoftware.github.io/addons.xml.md5</checksum>
+		<datadir zip="true">https://hirayasoftware.github.io/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Hiraya Software Repository</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
 
 <addon id="repository.LReylist_Oficial" name="LReylist, official Repo" version="1.0.0" provider-name="LRey">
 	<extension point="xbmc.addon.repository" name="LReylist official Repo">
