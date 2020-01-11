@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.5" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
+<addon id="plugin.video.videoclup" name="[COLOR skyblue]Media Center[/COLOR]" version="3.0" provider-name="[COLOR deepskyblue]Media Center[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -21,9 +21,9 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Modificacion By Lreylist</summary>
-    <description lang="en">Modificacion By Lreylist</description>
-    <disclaimer lang="en">Video-Club </disclaimer>
+    <summary lang="en">Lreylist</summary>
+    <description lang="en">Lreylist</description>
+    <disclaimer lang="en">Media Center </disclaimer>
 	<platform>all</platform>
   </extension>
 </addon>
