@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]" version="4.1.6" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="[COLOR lime]Tv[/COLOR][COLOR white]ala[/COLOR][COLOR lime]carta[/COLOR]" version="4.2.0" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
