@@ -17,11 +17,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="6.3.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="6.3.3" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.alfa-update-helper" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -39,17 +40,16 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Poseidonhd                        ¤ Cinemahd                               ¤ Dospelis
-      ¤ Rexpelis                              ¤ Seriemega                              ¤ Vidfast
-      ¤ Crunchyroll                         ¤ Cineclasicoonline                   ¤ Seriemega
-      ¤ Seriesflv                              ¤ Danimados                             ¤ Grantorrent
-      ¤ +18
+      ¤ Allcalidad                               ¤ Cinetux                                ¤ 123pelis
+      ¤ Seriesflv                                 ¤ Pedropolis                           ¤ Entrepeliculasyseries
+      ¤ Dospelis                                ¤ Dilo                                       ¤ Seriemega
+      ¤ Estrenosgo                           ¤ Grantorrent                         ¤ Newpct1
+      ¤ Cine.is                                   ¤ Allpeliculas                           ¤ Poseidonhd
+      ¤ +18                                        ¤ Dontorrent (bloqueos)       ¤ Libtorrent 1.2.7 (Win)
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Mejoras de rendimiento en Menús Contextuales            ¤ Cinetorrent (Latino)
+      ¤ Allpeliculastv                        ¤ Streamtape (servidor)        ¤ Videoko (servidor)
       ¤ +18
-
-      Agradecimiento a @mac12m99 por su colaboración en esta versión
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
