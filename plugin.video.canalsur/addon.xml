@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mitele" name="MITELE" version="1.2.7" provider-name="Alex303 - Hiraya Software">
+<addon id="plugin.video.canalsur" name="CANAL SUR" version="1.0.2" provider-name="Alex303 - Hiraya Software">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.9.1" />
-		<import addon="script.module.resolveurl" />
+		<import addon="plugin.video.youtube" version="5.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -14,12 +14,12 @@
 		<datadir zip="true">https://hirayasoftware.github.io/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MITELE</summary>
-		<description lang="en">MITELE Addon</description>
-		<disclaimer lang="en">Addon con la programación de MITELE a la carta.</disclaimer>
-		<summary lang="es">MITELE</summary>
-		<description lang="es">MITELE Addon</description>
-		<disclaimer lang="es">Addon con la programación de MITELE a la carta.</disclaimer>
+		<summary lang="en">CANAL SUR</summary>
+		<description lang="en">CANAL SUR Addon</description>
+		<disclaimer lang="en">Addon con la programación de CANAL SUR a la carta.</disclaimer>
+		<summary lang="es">CANAL SUR</summary>
+		<description lang="es">CANAL SUR Addon</description>
+		<disclaimer lang="es">Addon con la programación de CANAL SUR a la carta.</disclaimer>
 		<platform>all</platform>
         <website></website>
         <video_guide></video_guide>
