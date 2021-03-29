@@ -78,7 +78,7 @@ You can clone the project and host it in your own server.
 	</extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="6.4.3" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="6.4.4" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -101,12 +101,12 @@ You can clone the project and host it in your own server.
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cliver                            ¤ EntrePeliculasySeries                   ¤ Erai-raws
-      ¤ PuyaSubs                    ¤ Divxtotal                                         ¤ Allpeliculas
-      ¤ 18+
+      ¤ Estrenoscinesaa                     ¤ Pelix                            ¤ Pelisplus
+      ¤ SeriesKao                                ¤ Danimados                ¤ SeriesRetro
+      ¤ HDFull                                     ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Gamovideo (desactivado)
+      ¤ Dascer (motor en diferido)
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
